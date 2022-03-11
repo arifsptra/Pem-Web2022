@@ -33,5 +33,23 @@
         print_r($nama);
         echo "</pre>";
     ?>
+
+    <!-- Perintah Output var_dump -->
+    <?php
+        $iam = "Arif Saputra";
+        var_dump($iam);
+
+        $siswa = array(
+            'nama' => array('Arif', 'Uswa', 'Askary'),
+            'jurusan' => 'Teknik Informatika',
+            'semester' => 2,
+            'kota 1' => 'Pati',
+            'kota 2' => 'Bandung'
+        );
+        
+        echo "<pre>";
+        var_dump($siswa);
+        echo "</pre>";
+    ?>
     </body>
 </html>
