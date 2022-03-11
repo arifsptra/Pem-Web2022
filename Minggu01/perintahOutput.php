@@ -24,5 +24,14 @@
         print $x + $y;
         print "<br>Print memiliki return sebesar: $ret";
     ?>
+
+    <!-- Perintah Output print_r -->
+    <?php
+        $nama = array('Arif', 'Uswa', 'Askary');
+        echo "<br><br>Berikut adalah data nama: ";
+        echo "<pre>";
+        print_r($nama);
+        echo "</pre>";
+    ?>
     </body>
 </html>
