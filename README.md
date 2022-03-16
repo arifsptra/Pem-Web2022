@@ -19,7 +19,7 @@ _Thursday, March 10, 2022_
   - Used in conjunction with HTML
   - Syntax follows <b>C</b> bahasa language
   - PHP scripts can be placed anywhere in the web document
-  - PHP script starts with delimiter <b><?php</b> and ends with <b>?></b>
+  - PHP script starts with delimiter <b><?php</b> and ends with <b>?</b>
   - The default PHP file extension is <b>.php"</b>
   - PHP statements end with a semicolon <b>;</b>
   - Variable naming in PHP is case sensitive
