@@ -63,6 +63,24 @@
         echo "Hasil A <= B : ", $a<=$b, "<br>";
         // Spaceship
         echo "Hasil A <=> B : ", $a<=>$b, "<br>";
+
+        // Increment/Decrement Operators
+        echo "<p><strong>Increment/Decrement</strong> Operators: <p>";
+        $a = 10;
+        $b = 7;
+        echo "Diketahui Nilai Awal A = 10 dan B = 7 <br>";
+        // Pre Increment
+        echo "Hasil ++A : ", ++$a, " => Pre Increment Instantly Change<br>";
+        echo $a, " => called the value has changed<br>";
+        // Post Increment
+        echo "Hasil A++ : ", $a++, " => Post Increment Not Immediately Change<br>";
+        echo $a, " => if called again, it will change<br>";
+        // Pre Decrement
+        echo "Hasil --B : ", --$b, " => Pre Decrement Instantly Change<br>";
+        echo $b, " => called the value has changed<br>";
+        // Post Decrement
+        echo "Hasil B-- : ", $b--, " => Post Decrement Not Immediately Change<br>";
+        echo $b, " => if called again, it will change<br>";
     ?>
     </body>
 </html>
