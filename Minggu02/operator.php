@@ -81,6 +81,21 @@
         // Post Decrement
         echo "Hasil B-- : ", $b--, " => Post Decrement Not Immediately Change<br>";
         echo $b, " => if called again, it will change<br>";
+
+        // Logical Operators
+        echo "<p><strong>Logical</strong> Operators: <p>";
+        $a = true;
+        $b = false;
+        echo "the return is true(1) or false( )<br>";
+        echo "Diketahui Nilai Awal A = true dan B = false <br>";
+        // AND
+        echo "Hasil A && B : ", $a&&$b, "<br>";
+        // OR
+        echo "Hasil A || B : ", $a||$b, "<br>";
+        // XOR
+        echo "Hasil A ^ B : ", $a^$b, "<br>";
+        // NOT
+        echo "Hasil !B : ", !$b, "<br>";
     ?>
     </body>
 </html>
