@@ -117,6 +117,22 @@
         print_r($a!=$b);    // 1
         print_r($a!==$b);   // 1
         print_r($a<>$b);    // 1
+
+        // Conditional Assignment Operators
+        echo "<p><strong>Conditional Assignment</strong> Operators: </p>";
+        $a = 10;
+        $b = 93;
+
+        // Ternary
+        echo $a==10?"$a Ten":"$a Not Ten";
+        echo '<br>';
+        echo $b==10?"$b Ten":"$b Not Ten";
+        echo '<br>';
+
+        // Null Coalescing
+        echo $a==10??"Ten";
+        echo '<br>';
+        echo $_GET[$b]??"Ninety Three";
     ?>
     </body>
 </html>
