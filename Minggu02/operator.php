@@ -96,6 +96,14 @@
         echo "Hasil A ^ B : ", $a^$b, "<br>";
         // NOT
         echo "Hasil !B : ", !$b, "<br>";
+
+        // String Operators
+        echo "<p><strong>String</strong> Operators: <p>";
+        $a = "Hello ";
+        $b = 'Arif Saputra';
+        echo "Two Quotes: ", $a, "<br>";
+        echo 'One Quotes: ', $b, "<br>";
+        echo $a .= $b; // concatenate two strings
     ?>
     </body>
 </html>
