@@ -43,3 +43,29 @@ _Thursday, March 10, 2022_
   - NULL
   - Resource
 - Constant, an identifier that holds data that is fixed (cannot be changed)
+
+## Material of Week 2
+
+_Thursday, March 17, 2022_
+
+- Operators are used to <b>perform operations</b> on <b>variables</b> and <b>values</b>:
+  - Arithmetic operators
+  - Assignment operators
+  - Comparison operators
+  - Increment/Decrement operators
+  - Logical operators
+  - String operators
+  - Array operators
+  - Conditional assignment operators
+- Control Structure
+  - <b>Conditional</b>
+    - if
+    - if else
+    - if else if
+  - <b>Loop</b>
+    - while
+    - do while
+    - for
+    - foreach
+    - break
+    - continue
