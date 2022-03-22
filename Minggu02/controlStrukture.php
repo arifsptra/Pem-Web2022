@@ -36,6 +36,22 @@
     else if($three == 3){
         echo "<p>This is Three</p>";
     }
+
+    // switch case condition
+    $favclub = "PERSIB";
+    switch($favclub){
+        case "PERSIB":
+            echo "<p>Your favorite team is PERSIB</p>";
+            break;
+        case "PERSEBAYA":
+            echo "<p>Your favorite team is PERSEBAYA</p>";
+            break;
+        case "PERSIPA":
+            echo "<p>Your favorite team is PERSIPA</p>";
+            break;
+        default:
+            echo "<p>Your don't have favorite team.</p>";
+    }
     ?>
     </body>
 </html>
