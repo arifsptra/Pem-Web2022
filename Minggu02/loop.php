@@ -32,6 +32,17 @@
     foreach($f as $g => $h){
         echo "<p>Foreach Loop $g = $h</p>";
     }
+
+    // break and continue
+    for($i=0;$i<=7;$i++){
+        if($i == 3){
+            continue;
+        }
+        if($i == 5){
+            break;
+        }
+        echo "<p>Number $i</p>";
+    }
     ?>
     </body>
 </html>
