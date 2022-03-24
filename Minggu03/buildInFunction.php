@@ -32,7 +32,20 @@
     echo rand(), "<br/>";
     // rand(start number, end number) => to generate random number from start number to end number
     echo rand(11, 30), "<br/>";
-    
+
+    // date
+    // d - Represents the day of the month (01 to 31)
+    // m - Represents a month (01 to 12)
+    // Y - Represents a year (in four digits)
+    // l - Represents the day of the week
+    // H - 24-hour format of an hour (00 to 23)
+    // h - 12-hour format of an hour with leading zeros (01 to 12)
+    // i - Minutes with leading zeros (00 to 59)
+    // s - Seconds with leading zeros (00 to 59)
+    // a - Lowercase Ante meridiem and Post meridiem (am or pm)
+    echo "Today is ". date("l, d/m/Y"), "<br/>";
+    echo "Now at ". date("h:i:s a");
+    echo " or ". date("H:i"), "<br/>";
     ?>
     </body>
 </html>
