@@ -69,3 +69,19 @@ _Thursday, March 17, 2022_
     - foreach
     - break
     - continue
+
+## Material of Week 3
+
+_Thursday, March 24, 2022_
+
+- Function is a <b>block of statements</b> that <b>can be used repeatedly in a program</b>.
+- Function type:
+  - <b>User Defined Functions</b>
+    - pass-by-value
+    - pass-by-reference
+  - <b>Built-in function</b> (PHP has <b>more than 1000</b> built-in function)
+    - string
+    - math
+    - date
+    - array
+    - etc
