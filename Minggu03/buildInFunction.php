@@ -46,6 +46,20 @@
     echo "Today is ". date("l, d/m/Y"), "<br/>";
     echo "Now at ". date("h:i:s a");
     echo " or ". date("H:i"), "<br/>";
+
+    // date from a string
+    $d = strtotime("10:30pm March 25 2022");
+    echo "Created date is ". date("Y-m-d h:i:s:a", $d), "<br/>";
+    $d = strtotime("today");
+    echo date("Y-m-d h:i:s:a", $d), "<br/>";
+    $d = strtotime("tomorrow");
+    echo date("Y-m-d h:i:s:a", $d), "<br/>";
+    $d = strtotime("next friday");
+    echo date("Y-m-d h:i:s:a", $d), "<br/>";
+    $d = strtotime("+3 months");
+    echo date("Y-m-d h:i:s:a", $d), "<br/>";
+
+    
     ?>
     </body>
 </html>
