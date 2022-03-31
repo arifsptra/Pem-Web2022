@@ -30,6 +30,24 @@
             echo "<p>". $cars[$row][$col]."</p>";
         }
     }
+
+    // sorting indexed array
+    function printArray($x){
+        $p = count($x);
+        for($i=0; $i<$p; $i++){
+            echo $x[$i];
+            echo "<br/>";
+        }
+    }
+    $family = array("Rizky", "Arif", "Khoirul", "Adit");
+    printArray($family);
+    echo "<br/>";
+    rsort($family);
+    printArray($family);
+    echo "<br/>";
+    sort($family);
+    printArray($family);
+    echo "<br/>";
     ?>
     </body>
 </html>
