@@ -48,6 +48,23 @@
     sort($family);
     printArray($family);
     echo "<br/>";
+
+    // sorting associative array
+    function printArray2($Arr){
+        foreach($Arr as $x => $x_value){
+            echo "Key: ". $x ." Value: ". $x_value;
+            echo "<br/>";
+        }
+    }
+    $age = array("Rizky" => 15, "Arif" => 18, "Khoirul" => 17, "Adit" => 9);
+    printArray2($age);
+    echo "<br/>";
+    asort($age);
+    printArray2($age);
+    echo "<br/>";
+    ksort($age);
+    printArray2($age);
+    echo "<br/>";
     ?>
     </body>
 </html>
