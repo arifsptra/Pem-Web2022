@@ -115,3 +115,14 @@ _Friday, March 25, 2022_
         - $\_SESSION["username"]
         - unset($\_SESSION["username"])
         - session_destroy()
+
+## Material of Week 5
+
+_Thursday, March 31, 2022_
+
+- Working on case studies using <b>session</b> variables
+- Shopping cart process using <b>session-array</b>
+  - <b>Show</b> Product List
+  - <b>Selecting</b> a product and adding it in the Sessions array
+  - <b>Delete</b> all items in the array
+- <b>Improve program display</b>
