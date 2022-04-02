@@ -15,6 +15,7 @@
         <input type="submit" value="login">
     </form>
     <?php
+    session_start();
     if(isset($_POST['user'])){
         $user = $_POST['user'];
         $pass = $_POST['pass'];
