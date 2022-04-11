@@ -149,7 +149,7 @@ _Thursday, April 7, 2022_
 - <b>PHP version-5</b> and above can work with MySQL databases using:
   - <b>MySQLi</b> ("i" : improved)
   - <b>PDO</b> (PHP Data Objects)
-- <b>PDO vs MySQL<b>
+- <b>PDO vs MySQL</b>
   - PDO can access <b>12</b> database systems, while MySQLi can only access <b>1</b> database, namely MySQL.
   - PDO is used when it is necessary to perform a database <b>replacement on a project</b>. because it only needs to change the connection string and a few statements.
   - However, if you use MySQLi to <b>change to another</b> database, then a lot of code and queries must be rewritten. PDO and MySQLi are <b>object-oriented</b> programming, but MySQLi can also be used <b>procedurally</b>.
