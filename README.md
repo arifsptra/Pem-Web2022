@@ -126,3 +126,31 @@ _Thursday, March 31, 2022_
   - <b>Selecting</b> a product and adding it in the Sessions array
   - <b>Delete</b> all items in the array
 - <b>Improve program display</b>
+
+## Material of Week 6
+
+_Thursday, April 7, 2022_
+
+- MySQL is a standard <b>database system</b> that is widely used for websites that have large volumes of data and many users, ex: Facebook, Wikipedia, Tokopedia, etc.
+- MySQL can also be scaled down to support <b>database-embeded applications</b>.
+- Database -> <b>Media accommodates</b> the data of an agency managed using <b>DBMS software</b>, ex: MySQL, PostgreSQL, MS. Acess, etc.
+- With the <b>database</b> we can:
+  - <b>create</b> database -> used to create a database
+  - <b>drop</b> database -> used to delete a database
+- With the <b>table</b> we can:
+  - <b>create</b> table -> used to create tables in the database
+  - <b>alter</b> table -> used to modify the table that was created
+  - <b>drop</b> table -> used to drop tables in the database
+- with the <b>MySQL</b> we can:
+  - <b>insert</b> -> used to insert data into a table
+  - <b>select</b> -> used to retrieve data from a table
+  - <b>delete</b> -> used to delete a record from a table
+  - <b>update</b> -> used to update the value of a data
+- <b>PHP version-5</b> and above can work with MySQL databases using:
+  - <b>MySQLi</b> ("i" : improved)
+  - <b>PDO</b> (PHP Data Objects)
+- <b>PDO vs MySQL<b>
+  - PDO can access <b>12</b> database systems, while MySQLi can only access <b>1</b> database, namely MySQL.
+  - PDO is used when it is necessary to perform a database <b>replacement on a project</b>. because it only needs to change the connection string and a few statements.
+  - However, if you use MySQLi to <b>change to another</b> database, then a lot of code and queries must be rewritten. PDO and MySQLi are <b>object-oriented</b> programming, but MySQLi can also be used <b>procedurally</b>.
+  - Both support <b>Prepared-Statements</b>. Prepared-Statements are used to protect the web from <b>SQL-injection</b>, which is very important for web application security.
