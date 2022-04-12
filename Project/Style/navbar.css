@@ -1,0 +1,39 @@
+#navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  height: 8rem;
+  width: 100%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
+}
+
+.navLogo img {
+  color: #3c7c40;
+  height: 3.7rem;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+}
+
+.navList ul {
+  display: flex;
+  list-style: none;
+}
+
+.navList ul li {
+  padding: 0 2rem;
+}
+
+.navList a {
+  color: #555555;
+  text-decoration: none;
+  font-size: 1.8rem;
+  transition: all 0.5s;
+}
+
+.navList a:hover,
+.navList a:active {
+  color: #3c7c40;
+}
