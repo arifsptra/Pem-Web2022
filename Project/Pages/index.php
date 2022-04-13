@@ -94,5 +94,140 @@
       </div>
     </section>
     <!-- End Service -->
+    <!-- Start Product -->
+    <section id="product">
+      <div class="container">
+        <div class="prodHead">
+          <h2>OUR PRODUCT</h2>
+          <div class="prodLine"></div>
+        </div>
+        <div class="prodMain">
+          <div class="prodCol">
+            <a href="">
+              <img src="../Images/p01.png" alt="product" />
+              <div class="prodDesc">
+                <p class="prodMerk">KUTANI</p>
+                <h4 class="prodHead">Carrot</h4>
+                <p class="prodKet">2 - 5 pcs/kg</p>
+                <p class="prodPrice">Rp. 10.000 / 1kg</p>
+                <p class="prodKet2">min. 1 kg</p>
+              </div>
+            </a>
+          </div>
+          <div class="prodCol">
+            <a href="">
+              <img src="../Images/p02.png" alt="product" />
+              <div class="prodDesc">
+                <p class="prodMerk">KUTANI</p>
+                <h4 class="prodHead">Carrot</h4>
+                <p class="prodKet">2 - 5 pcs/kg</p>
+                <p class="prodPrice">Rp. 10.000 / 1kg</p>
+                <p class="prodKet2">min. 1 kg</p>
+              </div>
+            </a>
+          </div>
+          <div class="prodCol">
+            <a href="">
+              <img src="../Images/p03.png" alt="product" />
+              <div class="prodDesc">
+                <p class="prodMerk">KUTANI</p>
+                <h4 class="prodHead">Carrot</h4>
+                <p class="prodKet">2 - 5 pcs/kg</p>
+                <p class="prodPrice">Rp. 10.000 / 1kg</p>
+                <p class="prodKet2">min. 1 kg</p>
+              </div>
+            </a>
+          </div>
+          <div class="prodCol">
+            <a href="">
+              <img src="../Images/p04.png" alt="product" />
+              <div class="prodDesc">
+                <p class="prodMerk">KUTANI</p>
+                <h4 class="prodHead">Carrot</h4>
+                <p class="prodKet">2 - 5 pcs/kg</p>
+                <p class="prodPrice">Rp. 10.000 / 1kg</p>
+                <p class="prodKet2">min. 1 kg</p>
+              </div>
+            </a>
+          </div>
+          <div class="prodCol">
+            <a href="">
+              <img src="../Images/p05.png" alt="product" />
+              <div class="prodDesc">
+                <p class="prodMerk">KUTANI</p>
+                <h4 class="prodHead">Carrot</h4>
+                <p class="prodKet">2 - 5 pcs/kg</p>
+                <p class="prodPrice">Rp. 10.000 / 1kg</p>
+                <p class="prodKet2">min. 1 kg</p>
+              </div>
+            </a>
+          </div>
+          <div class="prodCol">
+            <a href="">
+              <img src="../Images/p06.png" alt="product" />
+              <div class="prodDesc">
+                <p class="prodMerk">KUTANI</p>
+                <h4 class="prodHead">Carrot</h4>
+                <p class="prodKet">2 - 5 pcs/kg</p>
+                <p class="prodPrice">Rp. 10.000 / 1kg</p>
+                <p class="prodKet2">min. 1 kg</p>
+              </div>
+            </a>
+          </div>
+          <div class="prodCol">
+            <a href="">
+              <img src="../Images/p07.png" alt="product" />
+              <div class="prodDesc">
+                <p class="prodMerk">KUTANI</p>
+                <h4 class="prodHead">Carrot</h4>
+                <p class="prodKet">2 - 5 pcs/kg</p>
+                <p class="prodPrice">Rp. 10.000 / 1kg</p>
+                <p class="prodKet2">min. 1 kg</p>
+              </div>
+            </a>
+          </div>
+          <div class="prodCol">
+            <a href="">
+              <img src="../Images/p08.png" alt="product" />
+              <div class="prodDesc">
+                <p class="prodMerk">KUTANI</p>
+                <h4 class="prodHead">Carrot</h4>
+                <p class="prodKet">2 - 5 pcs/kg</p>
+                <p class="prodPrice">Rp. 10.000 / 1kg</p>
+                <p class="prodKet2">min. 1 kg</p>
+              </div>
+            </a>
+          </div>
+          <div class="prodCol">
+            <a href="">
+              <img src="../Images/p09.png" alt="product" />
+              <div class="prodDesc">
+                <p class="prodMerk">KUTANI</p>
+                <h4 class="prodHead">Carrot</h4>
+                <p class="prodKet">2 - 5 pcs/kg</p>
+                <p class="prodPrice">Rp. 10.000 / 1kg</p>
+                <p class="prodKet2">min. 1 kg</p>
+              </div>
+            </a>
+          </div>
+          <div class="prodCol">
+            <a href="">
+              <img src="../Images/p10.png" alt="product" />
+              <div class="prodDesc">
+                <p class="prodMerk">KUTANI</p>
+                <h4 class="prodHead">Carrot</h4>
+                <p class="prodKet">2 - 5 pcs/kg</p>
+                <p class="prodPrice">Rp. 10.000 / 1kg</p>
+                <p class="prodKet2">min. 1 kg</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="prodButton">
+          <button><a href="../Pages/product.php">See More</a></button>
+        </div>
+      </div>
+    </section>
+    <!-- End Product -->
   </body>
 </html>

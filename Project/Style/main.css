@@ -7,6 +7,9 @@
 /* Style for Service Section */
 @import url("service.css");
 
+/* Style for Product Section */
+@import url("product.css");
+
 *,
 *::after,
 *::before {

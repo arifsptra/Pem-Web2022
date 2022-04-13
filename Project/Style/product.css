@@ -1,0 +1,96 @@
+#product {
+  width: 100%;
+  padding-top: 7.5rem;
+}
+
+#product .container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.prodHead h2 {
+  font-size: 2rem;
+  color: #3c7c40;
+  font-weight: 600;
+  cursor: default;
+}
+
+.prodLine {
+  width: 4rem;
+  height: 0.2rem;
+  background: #3c7c40;
+  margin: 0.5rem auto;
+}
+
+.prodMain {
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.prodCol {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  transition: all 0.4s;
+}
+
+.prodCol:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
+
+.prodCol a {
+  text-decoration: none;
+}
+
+.prodCol img {
+  width: 22rem;
+  height: 22rem;
+}
+
+.prodDesc {
+  width: 100%;
+  padding: 1.5rem 2rem;
+}
+
+.prodCol .prodMerk {
+  font-size: 1.2rem;
+  color: #3c7c40;
+}
+
+.prodCol .prodHead,
+.prodPrice {
+  margin: 0.4rem 0;
+  font-size: 1.6rem;
+  color: #555;
+}
+
+.prodCol .prodKet,
+.prodKet2 {
+  font-size: 1rem;
+  color: #777;
+}
+
+.prodButton {
+  margin-top: 2.5rem;
+}
+
+.prodButton button {
+  padding: 0.4rem 2rem;
+  border-radius: 2rem;
+  border: 1px solid #555;
+  background: none;
+  transition: all 0.4s;
+}
+
+.prodButton button:hover {
+  box-shadow: 0 0 0 3px rgba(85, 85, 85, 0.671);
+}
+
+.prodButton button a {
+  text-decoration: none;
+  color: #555;
+}
