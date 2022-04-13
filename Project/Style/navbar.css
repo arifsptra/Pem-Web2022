@@ -1,8 +1,9 @@
 #navbar {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   position: fixed;
-  height: 8rem;
+  min-height: 8rem;
   width: 100%;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
 }
@@ -12,28 +13,104 @@
   height: 3.7rem;
 }
 
+.navRight {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .navList {
   display: flex;
   align-items: center;
 }
 
 .navList ul {
+  width: 35vw;
   display: flex;
   list-style: none;
-}
-
-.navList ul li {
-  padding: 0 2rem;
+  justify-content: space-between;
 }
 
 .navList a {
   color: #555555;
   text-decoration: none;
-  font-size: 1.8rem;
-  transition: all 0.5s;
+  font-size: 1.6rem;
+  font-weight: 500;
+  transition: all 0.4s;
 }
 
 .navList a:hover,
 .navList a:active {
+  color: #3c7c40;
+}
+
+.navIcon {
+  margin: 0 2.5rem;
+  width: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navIcon i {
+  font-size: 2rem;
+  color: #555;
+  transition: all 0.4s;
+}
+
+.navIcon i:hover {
+  color: #3c7c40;
+}
+
+.navLine {
+  width: 1px;
+  height: 35px;
+  background-color: #555555;
+}
+
+.navButton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navButton button {
+  margin-left: 2.5rem;
+  border: none;
+}
+
+.navButton button a {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.navButton .signUp {
+  border-radius: 20px;
+  padding: 4px 20px;
+  background: #3c7c40;
+  transition: all 0.4s;
+}
+
+.navButton .signUp a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navButton .signIn {
+  background: none;
+  border-radius: none;
+}
+
+.navButton .signIn a {
+  color: #555;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+.navButton .signUp:hover {
+  box-shadow: 0 0 0 3px rgba(60, 124, 64, 0.671);
+}
+
+.navButton .signIn a:hover {
   color: #3c7c40;
 }
