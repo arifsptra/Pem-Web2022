@@ -57,5 +57,15 @@
       </div>
     </header>
     <!-- End Navbar -->
+    <!-- Start Hero -->
+    <section id="hero">
+      <div class="container">
+        <div class="heroText">
+          <h1>Supplier of agricultural commodities worldwide</h1>
+          <p>Helping farmers to increase the yield of agricultural commodities in Pati Regency – Indonesia</p>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
   </body>
 </html>

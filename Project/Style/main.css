@@ -1,6 +1,9 @@
 /* Style for Navbar */
 @import url("navbar.css");
 
+/* Style for Hero Section */
+@import url("hero.css");
+
 *,
 *::after,
 *::before {

@@ -1,0 +1,25 @@
+#hero {
+    z-index: 1;
+    width: 100%;
+    height: 400px;
+    background: url(../Images/hero.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroText {
+    color: #fff;
+}
+
+.heroText h1 {
+    margin-top: 6rem;
+    font-size: 3rem;
+}
+
+.heroText p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    width: 100%;
+    max-width: 66rem;
+}
