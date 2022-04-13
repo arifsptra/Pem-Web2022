@@ -10,8 +10,11 @@
 /* Style for Product Section */
 @import url("product.css");
 
-/* Style for Product Section */
+/* Style for Join Section */
 @import url("join.css");
+
+/* Style for Article Section */
+@import url("article.css");
 
 *,
 *::after,

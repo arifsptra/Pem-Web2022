@@ -1,0 +1,61 @@
+#article {
+  width: 100%;
+  display: flex;
+  margin-top: 7.5rem;
+}
+
+.artMain {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.artCol {
+  text-align: center;
+  width: 36rem;
+}
+
+.artImg {
+  cursor: pointer;
+  width: 36rem;
+  height: 40rem;
+  padding-top: 25rem;
+  color: #fff;
+}
+.artImg .artHead {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.artImg .artDate {
+  font-style: italic;
+}
+
+.artSniP {
+  cursor: pointer;
+}
+
+.artSni {
+  margin: 1rem auto;
+  font-size: 1.6rem;
+  color: #555;
+}
+
+.artSni button {
+  margin-top: 1rem;
+  background: none;
+  border-radius: 2rem;
+  padding: 0.4rem 0;
+  border: 1px solid #555;
+  transition: all 0.4s;
+}
+
+.artSni button a {
+  color: #555;
+  text-decoration: none;
+  padding: 0.4rem 2rem;
+}
+
+.artSni button:hover {
+  box-shadow: 0 0 0 3px rgba(85, 85, 85, 0.671);
+}

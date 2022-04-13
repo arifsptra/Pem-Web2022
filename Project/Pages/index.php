@@ -242,5 +242,43 @@
       </div>
     </section>
     <!-- End Join -->
+    <!-- Start Article -->
+    <section id="article">
+      <div class="container">
+        <div class="artMain">
+          <div class="artCol">
+            <div class="artImg" style="background: url(../Images/a01.png)">
+              <p class="artHead">Apa Yang Perlu Kita Perhatikan Dalam Memilih Pupuk?</p>
+              <time class="artDate">KUTANI | 30 April 2022</time>
+            </div>
+            <div class="artSni">
+              <p class="artSniP">Pupuk merupakan suatu bahan yang memiliki kandungan nutrisi bagi tanaman. Tahukah kamu bahwa setiap pupuk memiliki tujuan dan fungsinya tersendiri?...</p>
+              <button><a href="#">Read More</a></button>
+            </div>
+          </div>
+          <div class="artCol">
+            <div class="artImg" style="background: url(../Images/a02.png)">
+              <p class="artHead">Apa Yang Perlu Kita Perhatikan Dalam Memilih Pupuk?</p>
+              <time class="artDate">KUTANI | 30 April 2022</time>
+            </div>
+            <div class="artSni">
+              <p class="artSniP">Pupuk merupakan suatu bahan yang memiliki kandungan nutrisi bagi tanaman. Tahukah kamu bahwa setiap pupuk memiliki tujuan dan fungsinya tersendiri?...</p>
+              <button><a href="#">Read More</a></button>
+            </div>
+          </div>
+          <div class="artCol">
+            <div class="artImg" style="background: url(../Images/a03.png)">
+              <p class="artHead">Apa Yang Perlu Kita Perhatikan Dalam Memilih Pupuk?</p>
+              <time class="artDate">KUTANI | 30 April 2022</time>
+            </div>
+            <div class="artSni">
+              <p class="artSniP">Pupuk merupakan suatu bahan yang memiliki kandungan nutrisi bagi tanaman. Tahukah kamu bahwa setiap pupuk memiliki tujuan dan fungsinya tersendiri?...</p>
+              <button><a href="#">Read More</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Article -->
   </body>
 </html>
