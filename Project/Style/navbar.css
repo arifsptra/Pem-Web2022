@@ -1,4 +1,6 @@
 #navbar {
+  z-index: 2;
+  background: #fff;
   display: flex;
   align-items: center;
   justify-content: space-around;
