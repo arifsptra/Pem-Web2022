@@ -229,5 +229,18 @@
       </div>
     </section>
     <!-- End Product -->
+    <!-- Start Join -->
+    <section id="join">
+      <div class="container">
+        <div class="joinText">
+          <h2>Join Now!</h2>
+          <p>Start farming with agricultural experts together with other farmers with our community, and increase your agricultural yield.</p>
+        </div>
+        <div class="joinButton">
+          <button><a href="../Pages/">Join Now</a></button>
+        </div>
+      </div>
+    </section>
+    <!-- End Join -->
   </body>
 </html>

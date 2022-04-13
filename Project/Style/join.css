@@ -1,0 +1,48 @@
+#join {
+  margin-top: 7.5rem;
+  width: 100%;
+  height: 300px;
+  background: url(../Images/join.png);
+  display: flex;
+}
+
+#join .container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.joinText {
+  color: #fff;
+  cursor: default;
+}
+
+.joinText h2 {
+  font-size: 3rem;
+}
+
+.joinText p {
+  margin-top: 1rem;
+  font-size: 2rem;
+  width: 100%;
+  max-width: 80rem;
+}
+
+.joinButton button {
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 3rem;
+  padding: 0.6rem 0;
+  transition: all 0.4s;
+}
+
+.joinButton button:hover {
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.671);
+}
+
+.joinButton button a {
+  border-radius: 3rem;
+  padding: 0.6rem 2.4rem;
+  color: #fff;
+  font-size: 3rem;
+  text-decoration: none;
+}
