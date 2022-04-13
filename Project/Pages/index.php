@@ -67,5 +67,32 @@
       </div>
     </section>
     <!-- End Hero -->
+    <!-- Start Service -->
+    <section id="service">
+      <div class="container">
+        <div class="servHead">
+          <h2>OUR SERVICE</h2>
+          <div class="servLine"></div>
+        </div>
+        <div class="servMain">
+          <div class="servCol">
+            <i class="fa-solid fa-user"></i>
+            <h3>Own Brand</h3>
+            <p>You can create custom products using your own brand and monitor your production</p>
+          </div>
+          <div class="servCol">
+            <i class="fa-solid fa-heart"></i>
+            <h3>Commitment</h3>
+            <p>We will continue to provide the best to our customers and investors all the time</p>
+          </div>
+          <div class="servCol">
+            <i class="fa-solid fa-newspaper"></i>
+            <h3>Read Article</h3>
+            <p>You can enrich your knowledge by reading articles related to the world of agriculture</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Service -->
   </body>
 </html>

@@ -4,6 +4,9 @@
 /* Style for Hero Section */
 @import url("hero.css");
 
+/* Style for Service Section */
+@import url("service.css");
+
 *,
 *::after,
 *::before {
