@@ -290,11 +290,65 @@
               <button><a href="#">Read More</a></button>
             </div>
           </div>
-
         </div>
       </div>
     </section>
     <!-- End Article -->
+    <!-- Start Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footRow">
+          <div class="footCol">
+            <img src="../Images/logoKutaniWhite.svg" alt="kutani" />
+            <div class="footInfo">
+              <a href="#"><i class="fa-solid fa-phone"></i> +62123456789012</a>
+              <a href="#"><i class="fa-solid fa-envelope"></i> info@kutani.id</a>
+              <a href="#"><i class="fa-solid fa-location-dot"></i> 59182 Pati, Central Java - Indonesia</a>
+            </div>
+          </div>
+          <div class="footCol">
+            <strong>Follow Us</strong>
+            <div class="line"></div>
+            <p>Join our social media to get the latest info about agriculture.</p>
+            <div class="footMedia">
+              <div class="circle">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </div>
+              <div class="circle">
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+              <div class="circle">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+              <div class="circle">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="footCol">
+            <strong>Sitemap</strong>
+            <div class="line"></div>
+            <div class="link">
+              <ul>
+                <li><a href="../Pages/index.php">Home</a></li>
+                <li><a href="../Pages/product.php">Product</a></li>
+                <li><a href="../Pages/community.php">Community</a></li>
+                <li><a href="../Pages/article.php">Article</a></li>
+                <li><a href="../Pages/about.php">About Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <div class="footLine"></div>
+    <div class="copyright">
+      <div class="container">
+        <strong class="maker">© 2022 Arif Saputra </strong>
+        <strong class="support">Powered by kutani</strong>
+      </div>
+    </div>
 
     <!-- File External Javascript -->
     <!-- JQuery -->

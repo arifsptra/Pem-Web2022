@@ -16,6 +16,9 @@
 /* Style for Article Section */
 @import url("article.css");
 
+/* Style for Footer */
+@import url("footer.css");
+
 *,
 *::after,
 *::before {
