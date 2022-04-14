@@ -14,6 +14,10 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/09bdcabb66.js" crossorigin="anonymous"></script>
 
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
     <!-- My Style CSS -->
     <link rel="stylesheet" href="../Style/main.css" />
 
@@ -257,6 +261,16 @@
             </div>
           </div>
           <div class="artCol">
+            <div class="artImg" style="background: url(../Images/a03.png)">
+              <p class="artHead">Apa Yang Perlu Kita Perhatikan Dalam Memilih Pupuk?</p>
+              <time class="artDate">KUTANI | 30 April 2022</time>
+            </div>
+            <div class="artSni">
+              <p class="artSniP">Pupuk merupakan suatu bahan yang memiliki kandungan nutrisi bagi tanaman. Tahukah kamu bahwa setiap pupuk memiliki tujuan dan fungsinya tersendiri?...</p>
+              <button><a href="#">Read More</a></button>
+            </div>
+          </div>
+          <div class="artCol">
             <div class="artImg" style="background: url(../Images/a02.png)">
               <p class="artHead">Apa Yang Perlu Kita Perhatikan Dalam Memilih Pupuk?</p>
               <time class="artDate">KUTANI | 30 April 2022</time>
@@ -276,9 +290,20 @@
               <button><a href="#">Read More</a></button>
             </div>
           </div>
+
         </div>
       </div>
     </section>
     <!-- End Article -->
+
+    <!-- File External Javascript -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Slick JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- My Script JS -->
+    <script src="../Script/slideshow.js"></script>
   </body>
 </html>
