@@ -94,3 +94,32 @@
   text-decoration: none;
   color: #555;
 }
+
+/* Style for page product.php */
+#category {
+  background: #fff;
+  height: 13rem;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.catRow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 9.5rem;
+}
+
+.catRow .catCol {
+  margin: auto 2rem;
+}
+
+.catRow .catCol a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #555;
+}
+
+.catRow .catCol a:hover {
+  color: #3c7c40;
+}

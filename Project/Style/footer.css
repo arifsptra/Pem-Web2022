@@ -37,7 +37,7 @@
 }
 
 .footCol .footInfo a:hover {
-    color: #3c7c40;
+  color: #3c7c40;
 }
 
 .footCol .footInfo a i {
@@ -86,43 +86,43 @@
 }
 
 .footCol .footMedia .circle i {
-    font-size: 2rem;
-    color: #3c7c40;
+  font-size: 2rem;
+  color: #3c7c40;
 }
 
 .footCol .link ul {
-    list-style: none;
-    margin-bottom: 10rem;
+  list-style: none;
+  margin-bottom: 10rem;
 }
 
 .footCol .link ul a {
-    display: block;
-    font-size: 1.4rem;
-    color: #aaa;
-    text-decoration: none;
-    margin-bottom: 1.5rem;
-    transition: all 0.4s;
+  display: block;
+  font-size: 1.4rem;
+  color: #aaa;
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  transition: all 0.4s;
 }
 
 .footCol .link ul a:hover {
-    color: #3c7c40;
+  color: #3c7c40;
 }
 
-.footline {
-    width: 100%;
-    background: #aaa;
-    height: 0.1rem;
+.footLine {
+  width: 100%;
+  background: #aaa;
+  height: 0.1rem;
 }
 
 .copyright {
-    width: 100%;
-    font-size: 1.4rem;
-    padding: 2rem 0;
-    background: #181e19;
-    color: #aaa;
-    cursor: default;
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 2rem 0;
+  background: #181e19;
+  color: #aaa;
+  cursor: default;
 }
 
 .copyright .container {
-    justify-content: space-between;
+  justify-content: space-between;
 }
