@@ -19,6 +19,12 @@
 /* Style for Footer */
 @import url("footer.css");
 
+/* Style for Add Product */
+@import url("addProduct.css");
+
+/* Style for Form */
+@import url("form.css");
+
 *,
 *::after,
 *::before {

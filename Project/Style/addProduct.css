@@ -1,0 +1,51 @@
+#addProduct {
+  width: 100%;
+  padding-top: 13rem;
+}
+
+#addProduct .container {
+    flex-direction: column;
+}
+
+#addProduct .servHead {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#addProduct form {
+    margin: 0px auto;
+}
+
+#addPhoto {
+  display: none;
+}
+
+.addPhoto {
+    color: #555;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    padding: 1rem;
+    width: 48rem;
+    border-radius: 0.4rem;
+    border: none;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+}
+
+.footMaker {
+    font-size: 1.2rem;
+    width: 100%;
+    margin: 5rem auto 2rem auto;
+    text-align: center;
+}
+
+.footMaker strong {
+    color: #555;
+    cursor: default;
+}
+
+.footMaker a {
+    color: #3c7c40;
+    text-decoration: none;
+}
