@@ -79,12 +79,14 @@
             <option value="biji-bijian">Biji Bijian</option>
             <option value="buah">Buah</option>
             <option value="daging">Daging</option>
+            <option value="ikan">Ikan</option>
+            <option value="makananPokok">Makanan Pokok</option>
             <option value="sayuran">Sayuran</option></select
           ><br />
           <label for="brandName">Merk</label><br />
           <input type="text" id="brandName" name="brandName" required /><br />
           <label for="descr">Jumlah Produk /kg</label><br />
-          <input type="number" id="descr" name="descr" required /><br />
+          <input type="number" id="descr" name="descr" /><br />
           <label for="minim">Minimal Beli</label><br />
           <input type="text" id="minim" name="minim" required /><br />
           <label for="price">Harga /kg</label><br />

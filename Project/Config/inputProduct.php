@@ -1,6 +1,7 @@
 <?php
   include "../Config/connect.php";
   include "../Config/addPhoto.php";
+  $addPhoto = $_POST['addPhoto'];
   $productName = $_POST['productName'];
   $productDescription = $_POST['productDescription'];
   $category = $_POST['category'];
@@ -11,7 +12,7 @@
   $stock = $_POST['stock'];
        
   if(addPhoto($_FILES["addPhoto"])){
-    $addPhoto = $_POST['addPhoto']["name"];
+    $addPhoto = $_FILES['addPhoto']["name"];
     $sql = "INSERT INTO product (addPhoto, productName, productDescription, category, brandName, descr, minim, price, stock) VALUES ('$addPhoto', '$productName', '$productDescription', '$category', '$brandName', '$descr', '$minim', '$price', '$stock')";
     if($conn -> query($sql) === TRUE){
       $conn -> close();

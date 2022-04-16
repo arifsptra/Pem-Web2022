@@ -25,5 +25,6 @@ function addPhoto($addPhoto){
             return false;
         }
     }
+    $addPhoto = $addPhoto["name"];
 }
 ?>
