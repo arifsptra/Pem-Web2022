@@ -65,16 +65,22 @@
           <div class="servLine"></div>
         </div>
         <form action="../Config/inputProduct.php" method="POST" enctype="multipart/form-data">
-          <label for="addPhoto"
-            ><a class="addPhoto" rel="nofollow"><i class="fa-solid fa-paperclip"></i> Tambah Foto</a></label
-          >
+          <label for="addPhoto">
+            <a class="addPhoto" rel="nofollow"><i class="fa-solid fa-paperclip"></i> Tambah Foto</a>
+          </label>
           <input type="file" id="addPhoto" name="addPhoto"/><br />
           <label for="productName">Nama Produk</label><br />
           <input type="text" id="productName" name="productName" required /><br />
           <label for="productDescription">Deskripsi</label><br />
           <textarea name="productDescription" id="productDescription" cols="30" rows="4" required></textarea><br />
           <label for="category">Kategori</label><br />
-          <input type="text" id="category" name="category" required /><br />
+          <select name="category" id="catergory" required>
+            <option value="Pilih Kategori" default selected disabled>Pilih Kategori</option>
+            <option value="biji-bijian">Biji Bijian</option>
+            <option value="buah">Buah</option>
+            <option value="daging">Daging</option>
+            <option value="sayuran">Sayuran</option>
+          </select><br />
           <label for="brandName">Merk</label><br />
           <input type="text" id="brandName" name="brandName" required /><br />
           <label for="descr">Jumlah Produk /kg</label><br>
