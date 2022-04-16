@@ -64,23 +64,23 @@
           <h2>TAMBAH PRODUK KAMU</h2>
           <div class="servLine"></div>
         </div>
-        <form action="">
+        <form action="../Config/inputProduct.php" method="POST" enctype="multipart/form-data">
           <label for="addPhoto"
             ><a class="addPhoto" rel="nofollow"><i class="fa-solid fa-paperclip"></i> Tambah Foto</a></label
           >
-          <input type="file" id="addPhoto" /><br />
+          <input type="file" id="addPhoto" name="addPhoto"/><br />
           <label for="productName">Nama Produk</label><br />
           <input type="text" id="productName" name="productName" required /><br />
           <label for="productDescription">Deskripsi</label><br />
           <textarea name="productDescription" id="productDescription" cols="30" rows="4" required></textarea><br />
           <label for="category">Kategori</label><br />
-          <input type="" /><br />
+          <input type="text" id="category" name="category" required /><br />
           <label for="brandName">Merk</label><br />
           <input type="text" id="brandName" name="brandName" required /><br />
-          <label for="desc">Jumlah Produk /kg</label><br>
-          <input type="number" id="desc" name="desc" required /><br />
-          <label for="min">Minimal Beli</label><br>
-          <input type="text" id="min" name="min" required /><br />
+          <label for="descr">Jumlah Produk /kg</label><br>
+          <input type="number" id="descr" name="descr" required /><br />
+          <label for="minim">Minimal Beli</label><br>
+          <input type="text" id="minim" name="minim" required /><br />
           <label for="price">Harga /kg</label><br>
           <input type="number" id="price" name="price" required /><br />
           <label for="stock">Stok</label><br>
