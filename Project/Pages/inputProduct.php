@@ -68,30 +68,30 @@
           <label for="addPhoto">
             <a class="addPhoto" rel="nofollow"><i class="fa-solid fa-paperclip"></i> Tambah Foto</a>
           </label>
-          <input type="file" id="addPhoto" name="addPhoto"/><br />
+          <input type="file" id="addPhoto" name="addPhoto" /><br />
           <label for="productName">Nama Produk</label><br />
           <input type="text" id="productName" name="productName" required /><br />
           <label for="productDescription">Deskripsi</label><br />
           <textarea name="productDescription" id="productDescription" cols="30" rows="4" required></textarea><br />
           <label for="category">Kategori</label><br />
           <select name="category" id="catergory" required>
-            <option value="Pilih Kategori" default selected disabled>Pilih Kategori</option>
+            <option value="Pilih Kategori" selected disabled>Pilih Kategori</option>
             <option value="biji-bijian">Biji Bijian</option>
             <option value="buah">Buah</option>
             <option value="daging">Daging</option>
-            <option value="sayuran">Sayuran</option>
-          </select><br />
+            <option value="sayuran">Sayuran</option></select
+          ><br />
           <label for="brandName">Merk</label><br />
           <input type="text" id="brandName" name="brandName" required /><br />
-          <label for="descr">Jumlah Produk /kg</label><br>
+          <label for="descr">Jumlah Produk /kg</label><br />
           <input type="number" id="descr" name="descr" required /><br />
-          <label for="minim">Minimal Beli</label><br>
+          <label for="minim">Minimal Beli</label><br />
           <input type="text" id="minim" name="minim" required /><br />
-          <label for="price">Harga /kg</label><br>
+          <label for="price">Harga /kg</label><br />
           <input type="number" id="price" name="price" required /><br />
-          <label for="stock">Stok</label><br>
+          <label for="stock">Stok</label><br />
           <input type="number" name="stock" id="stock" required /><br />
-          <input type="submit" value="Tambah Produk" id="submit" class="submit">
+          <input type="submit" value="Tambah Produk" id="submit" class="submit" />
         </form>
       </div>
     </section>
