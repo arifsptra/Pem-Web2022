@@ -86,10 +86,8 @@
           require_once("../Config/connect.php");
             $sql = mysqli_query($conn, "SELECT * FROM product");
           ?>
-          <?php $no=1; ?>
           <?php while($row = mysqli_fetch_array($sql)) : ?>
           <div class="prodCol">
-            <?php $no++; ?>
             <a href="">
               <img src="../Images/<?php echo $row['addPhoto'] ?>" alt="product" />
               <div class="prodDesc">

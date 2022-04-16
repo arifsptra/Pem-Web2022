@@ -106,126 +106,27 @@
           <div class="prodLine"></div>
         </div>
         <div class="prodMain">
-          <div class="prodCol">
-            <a href="">
-              <img src="../Images/p01.png" alt="product" />
-              <div class="prodDesc">
-                <p class="prodMerk">KUTANI</p>
-                <h4 class="prodHead">Carrot</h4>
-                <p class="prodKet">2 - 5 pcs/kg</p>
-                <p class="prodPrice">Rp. 10.000 / 1kg</p>
-                <p class="prodKet2">min. 1 kg</p>
-              </div>
-            </a>
-          </div>
-          <div class="prodCol">
-            <a href="">
-              <img src="../Images/p02.png" alt="product" />
-              <div class="prodDesc">
-                <p class="prodMerk">KUTANI</p>
-                <h4 class="prodHead">Carrot</h4>
-                <p class="prodKet">2 - 5 pcs/kg</p>
-                <p class="prodPrice">Rp. 10.000 / 1kg</p>
-                <p class="prodKet2">min. 1 kg</p>
-              </div>
-            </a>
-          </div>
-          <div class="prodCol">
-            <a href="">
-              <img src="../Images/p03.png" alt="product" />
-              <div class="prodDesc">
-                <p class="prodMerk">KUTANI</p>
-                <h4 class="prodHead">Carrot</h4>
-                <p class="prodKet">2 - 5 pcs/kg</p>
-                <p class="prodPrice">Rp. 10.000 / 1kg</p>
-                <p class="prodKet2">min. 1 kg</p>
-              </div>
-            </a>
-          </div>
-          <div class="prodCol">
-            <a href="">
-              <img src="../Images/p04.png" alt="product" />
-              <div class="prodDesc">
-                <p class="prodMerk">KUTANI</p>
-                <h4 class="prodHead">Carrot</h4>
-                <p class="prodKet">2 - 5 pcs/kg</p>
-                <p class="prodPrice">Rp. 10.000 / 1kg</p>
-                <p class="prodKet2">min. 1 kg</p>
-              </div>
-            </a>
-          </div>
-          <div class="prodCol">
-            <a href="">
-              <img src="../Images/p05.png" alt="product" />
-              <div class="prodDesc">
-                <p class="prodMerk">KUTANI</p>
-                <h4 class="prodHead">Carrot</h4>
-                <p class="prodKet">2 - 5 pcs/kg</p>
-                <p class="prodPrice">Rp. 10.000 / 1kg</p>
-                <p class="prodKet2">min. 1 kg</p>
-              </div>
-            </a>
-          </div>
-          <div class="prodCol">
-            <a href="">
-              <img src="../Images/p06.png" alt="product" />
-              <div class="prodDesc">
-                <p class="prodMerk">KUTANI</p>
-                <h4 class="prodHead">Carrot</h4>
-                <p class="prodKet">2 - 5 pcs/kg</p>
-                <p class="prodPrice">Rp. 10.000 / 1kg</p>
-                <p class="prodKet2">min. 1 kg</p>
-              </div>
-            </a>
-          </div>
-          <div class="prodCol">
-            <a href="">
-              <img src="../Images/p07.png" alt="product" />
-              <div class="prodDesc">
-                <p class="prodMerk">KUTANI</p>
-                <h4 class="prodHead">Carrot</h4>
-                <p class="prodKet">2 - 5 pcs/kg</p>
-                <p class="prodPrice">Rp. 10.000 / 1kg</p>
-                <p class="prodKet2">min. 1 kg</p>
-              </div>
-            </a>
-          </div>
-          <div class="prodCol">
-            <a href="">
-              <img src="../Images/p08.png" alt="product" />
-              <div class="prodDesc">
-                <p class="prodMerk">KUTANI</p>
-                <h4 class="prodHead">Carrot</h4>
-                <p class="prodKet">2 - 5 pcs/kg</p>
-                <p class="prodPrice">Rp. 10.000 / 1kg</p>
-                <p class="prodKet2">min. 1 kg</p>
-              </div>
-            </a>
-          </div>
-          <div class="prodCol">
-            <a href="">
-              <img src="../Images/p09.png" alt="product" />
-              <div class="prodDesc">
-                <p class="prodMerk">KUTANI</p>
-                <h4 class="prodHead">Carrot</h4>
-                <p class="prodKet">2 - 5 pcs/kg</p>
-                <p class="prodPrice">Rp. 10.000 / 1kg</p>
-                <p class="prodKet2">min. 1 kg</p>
-              </div>
-            </a>
-          </div>
-          <div class="prodCol">
-            <a href="">
-              <img src="../Images/p10.png" alt="product" />
-              <div class="prodDesc">
-                <p class="prodMerk">KUTANI</p>
-                <h4 class="prodHead">Carrot</h4>
-                <p class="prodKet">2 - 5 pcs/kg</p>
-                <p class="prodPrice">Rp. 10.000 / 1kg</p>
-                <p class="prodKet2">min. 1 kg</p>
-              </div>
-            </a>
-          </div>
+          <?php 
+            require_once("../Config/connect.php");
+              $sql = mysqli_query($conn, "SELECT * FROM product");
+            ?>
+            <?php
+              for($i = 0; $i < 5; $i++){
+                $row = mysqli_fetch_array($sql);
+            ?>
+            <div class="prodCol">
+              <a href="">
+                <img src="../Images/<?php echo $row['addPhoto'] ?>" alt="product" />
+                <div class="prodDesc">
+                  <p class="prodMerk"><?php echo $row['brandName'] ?></p>
+                  <h4 class="prodHead"><?php echo $row['productName'] ?></h4>
+                  <p class="prodKet"><?php echo $row['descr'] ?> pcs/kg</p>
+                  <p class="prodPrice">Rp. <?php echo $row['price'] ?> /kg</p>
+                  <p class="prodKet2">min. <?php echo $row['minim'] ?>Kg</p>
+                </div>
+              </a>
+            </div>
+            <?php } ?>
         </div>
         <div class="prodButton">
           <button><a href="../Pages/product.php">See More</a></button>
