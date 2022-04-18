@@ -3,9 +3,10 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
+    $myDB = "db_practice";
 
     // create connection
-    $conn = new mysqli($servername, $username, $password);
+    $conn = new mysqli($servername, $username, $password, $myDB);
 
     // check connection
     if($conn -> connect_error){
