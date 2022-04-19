@@ -154,3 +154,19 @@ _Thursday, April 7, 2022_
   - PDO is used when it is necessary to perform a database <b>replacement on a project</b>. because it only needs to change the connection string and a few statements.
   - However, if you use MySQLi to <b>change to another</b> database, then a lot of code and queries must be rewritten. PDO and MySQLi are <b>object-oriented</b> programming, but MySQLi can also be used <b>procedurally</b>.
   - Both support <b>Prepared-Statements</b>. Prepared-Statements are used to protect the web from <b>SQL-injection</b>, which is very important for web application security.
+
+## Material of Week 7
+
+_Thursday, April 14, 2022_
+
+- Working on <b>CRUD-Database</b> case studies
+- CRUD process:
+  - <b>Add data</b> from Form into Table in database
+  - <b>Displaying data</b> from a table (database) to a web page
+  - Perform the process of <b>updating data</b> (Update, Delete)
+
+## Midterm Exam
+
+_Thursday, April 19, 2022_
+
+- Create a web application that is used by farmers to sell their agricultural products, look for reliable sources of information through articles that are already available on the website, and in the future farmers can consult with experts in the field of agriculture or communities in the field of agriculture.
