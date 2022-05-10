@@ -9,7 +9,7 @@
         <th>ID</th>
         <th>Nama</th>
         <th>Harga</th>
-        <th>Jumlah</th>
+        <th>Stok</th>
         <th>Keterangan</th>
         <th>Foto</th>
         <th>Edit</th>
