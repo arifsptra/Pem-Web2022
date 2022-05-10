@@ -23,8 +23,8 @@
             $teks .= "<td>". $row["stok"]. "</td>";
             $teks .= "<td>". $row["keterangan"]. "</td>";
             $teks .= "<td><img src='img/".$row["foto"]."' style='width:100px;height:100px;'></img></td>";
-            $teks .= "<td><a href='editBarang.php?id='". $row["id"]. ">Edit</a></td>";
-            $teks .= "<td><a href='hapusBarang.php?id='". $row["id"]. ">Hapus</a></td>";
+            $teks .= "<td><a href='editBarang.php?id=". $row["id"]. "'>Edit</a></td>";
+            $teks .= "<td><a href='hapusBarang.php?id=". $row["id"]. "'>Hapus</a></td>";
             $teks .= "<tr>";
             echo $teks;
         }
