@@ -170,3 +170,30 @@ _Thursday, April 14, 2022_
 _Thursday, April 19, 2022_
 
 - Create a web application that is used by farmers to sell their agricultural products, look for reliable sources of information through articles that are already available on the website, and in the future farmers can consult with experts in the field of agriculture or communities in the field of agriculture.
+
+## Material of Week 8
+
+_Thursday, May 12, 2022_
+
+- <b>Object-Based Programming</b> or <b>Object Oriented Programming (OOP)</b> is a procedure for making programs (programming paradigms) using the concept of "objects" which have data (attributes that describe objects) and procedures (functions) known as methods.
+- Excess:
+  - Faster and easier to execute
+  - Help keep program code to be <b>DRY-CODE</b> (Don't Repeat Yourself)
+  - Makes code easier to modify and debug
+  - Makes application development reusable with less code and shorter development time
+- A class is a collection of variables and the functions that work with those variables.
+- Function:
+  - <b>\_\_construct()</b> => initializes object properties when object creation is performed
+  - <b>\_\_destruct()</b> => object dihancurkan atau skrip dihentikan atau keluar dari program
+- Access Modifier => control where the properties and methods can be accessed, the type of access-modifier:
+  - <b>public</b> => the property or method can be accessed from anywhere = default
+  - <b>protected</b> => a property or method can be accessed within a class and by classes that derive from that class
+  - <b>private</b> => a property or method can ONLY be accessed within the class
+- Inheritance
+  - When a class is derived (inherited) from another class
+  - The child class inherits all the public and protected properties and methods of the parent class
+  - In addition, the child class can have its own properties and methods
+    Inherited classes are specified using the extends keyword
+- Overriding Inherited Methods
+  Inherited (parent) methods can be overridden by redefining the method (using the same method name) in the child class.
+- create <b>CRUD-OOP<b> application programs
