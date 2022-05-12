@@ -196,4 +196,4 @@ _Thursday, May 12, 2022_
     Inherited classes are specified using the extends keyword
 - Overriding Inherited Methods
   Inherited (parent) methods can be overridden by redefining the method (using the same method name) in the child class.
-- create <b>CRUD-OOP<b> application programs
+- create <b>CRUD-OOP</b> application programs
