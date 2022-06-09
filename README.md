@@ -221,7 +221,8 @@ _Thursday, May 19, 2022_
 
 - MVC Folder Layout
 
-  ````- Controller/
+  ```
+  - Controller/
     - UserController.php
     - ...
   - Model/
@@ -231,9 +232,9 @@ _Thursday, May 19, 2022_
     - UserFormView.php
     - UserListView.php
     - ...
-  - index.php -> works as a router```
+  - index.php -> works as a router
 
-  ````
+  ```
 
 - Framework That Implements MVC<br>
   | Language | Framework |
