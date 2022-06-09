@@ -197,3 +197,49 @@ _Thursday, May 12, 2022_
 - Overriding Inherited Methods
   Inherited (parent) methods can be overridden by redefining the method (using the same method name) in the child class.
 - create <b>CRUD-OOP</b> application programs
+
+## Material of Week 9
+
+_Thursday, May 19, 2022_
+
+- MVC (Model View Controller)<br>
+  It is a programming concept (design pattern) designed to make it easier for programmers to create projects by dividing the application into three main parts: Model, View, and Controller.
+
+- Main Aspect of MVC
+
+  - User Interface Logic
+  - Input logic
+  - Business Logic
+
+- MVC Technique Advantages
+
+  - Helping developers deal with the complexities of building applications by focusing on one implementation element at a time
+  - For example work in Business-Logic can be done without relying on UI-Logic.
+
+- MVC Concept Illustration<br>
+  The car has a windshield `(View)` which the driver `(Controller)` uses to monitor the traffic in front, then adjusts the throttle/brake speed `(Model)` depending on `(View)` what the driver sees in front.
+
+- MVC Folder Layout
+
+  ````- Controller/
+    - UserController.php
+    - ...
+  - Model/
+    - UserModel1.php
+    - ...
+  - View/
+    - UserFormView.php
+    - UserListView.php
+    - ...
+  - index.php -> works as a router```
+
+  ````
+
+- Framework That Implements MVC<br>
+  | Language | Framework |
+  |------------|------------------------------------|
+  | PHP | CodeIgniter, Laravel, Yii, dll |
+  | Java | Spring MVC, JSF, Struts, dll |
+  | Python | Django, CherryPy, dll |
+  | Ruby | Ruby on Rails, Sinatra, dll |
+  | Javascript | AngularJS, React, Backbone.js, dll |
