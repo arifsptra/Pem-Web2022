@@ -15,10 +15,10 @@
     <script src="https://kit.fontawesome.com/09bdcabb66.js" crossorigin="anonymous"></script>
 
     <!-- My Style CSS -->
-    <link rel="stylesheet" href="../Style/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
 
     <!-- Title -->
-    <link rel="icon" href="../Images/iconKutani.png" />
+    <link rel="icon" href="./img/iconKutani.png" />
     <title>Kutani | Platform Pembantu Petani</title>
   </head>
   <body>
@@ -27,17 +27,17 @@
       <div class="container">
         <div class="navLeft">
           <div class="navLogo">
-            <a href="../Pages/index.php"><img src="../Images/logoKutani.svg" alt="kutani" /></a>
+            <a href="index.php"><img src="./img/logoKutani.svg" alt="kutani" /></a>
           </div>
         </div>
         <div class="navRight">
           <div class="navList">
             <ul>
-              <li><a href="../Pages/index.php">Home</a></li>
-              <li><a href="../Pages/product.php">Product</a></li>
-              <li><a href="../Pages/community.php">Community</a></li>
-              <li><a href="../Pages/article.php">Article</a></li>
-              <li><a href="../Pages/about.php">About</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="product.php">Product</a></li>
+              <li><a href="community.php">Community</a></li>
+              <li><a href="article.php">Article</a></li>
+              <li><a href="about.php">About</a></li>
             </ul>
           </div>
           <div class="navIcon">
@@ -47,10 +47,10 @@
           <div class="navLine"></div>
           <div class="navButton">
             <button class="signIn">
-              <a href="../Pages/Reg/in.php">Sign In</a>
+              <a href="Reg/in.php">Sign In</a>
             </button>
             <button class="signUp">
-              <a href="../Pages/Reg/up.php">Sign Up</a>
+              <a href="Reg/up.php">Sign Up</a>
             </button>
           </div>
         </div>
@@ -83,13 +83,13 @@
       <div class="container">
         <div class="prodMain">
           <?php 
-          require_once("../Config/connect.php");
-            $sql = mysqli_query($conn, "SELECT * FROM product");
+          require_once("./config/connect.php");
+            $sql = mysqli_query($conn, "SELECT * FROM produk");
           ?>
           <?php while($row = mysqli_fetch_array($sql)) : ?>
           <div class="prodCol">
             <a href="">
-              <img src="../Images/<?php echo $row['addPhoto'] ?>" alt="product" />
+              <img src="./img/<?php echo $row['addPhoto'] ?>" alt="product" />
               <div class="prodDesc">
                 <p class="prodMerk"><?php echo $row['brandName'] ?></p>
                 <h4 class="prodHead"><?php echo $row['productName'] ?></h4>
@@ -109,7 +109,7 @@
       <div class="container">
         <div class="footRow">
           <div class="footCol">
-            <img src="../Images/logoKutaniWhite.svg" alt="kutani" />
+            <img src="./img/logoKutaniWhite.svg" alt="kutani" />
             <div class="footInfo">
               <a href="#"><i class="fa-solid fa-phone"></i> +62123456789012</a>
               <a href="#"><i class="fa-solid fa-envelope"></i> info@kutani.id</a>
@@ -140,11 +140,11 @@
             <div class="line"></div>
             <div class="link">
               <ul>
-                <li><a href="../Pages/index.php">Home</a></li>
-                <li><a href="../Pages/product.php">Product</a></li>
-                <li><a href="../Pages/community.php">Community</a></li>
-                <li><a href="../Pages/article.php">Article</a></li>
-                <li><a href="../Pages/about.php">About Us</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="product.php">Product</a></li>
+                <li><a href="community.php">Community</a></li>
+                <li><a href="article.php">Article</a></li>
+                <li><a href="about.php">About Us</a></li>
               </ul>
             </div>
           </div>

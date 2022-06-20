@@ -1,7 +1,7 @@
 <?php 
     $servername = "localhost";
     $username = "root";
-    $password = "";
+    $password = "S3cur3@$";
     $myDB="kutani";
     $conn = new mysqli($servername, $username, $password,$myDB);
     if ($conn->connect_error){

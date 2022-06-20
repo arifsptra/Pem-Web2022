@@ -15,10 +15,10 @@
     <script src="https://kit.fontawesome.com/09bdcabb66.js" crossorigin="anonymous"></script>
 
     <!-- My Style CSS -->
-    <link rel="stylesheet" href="../Style/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
 
     <!-- Title -->
-    <link rel="icon" href="../Images/iconKutani.png" />
+    <link rel="icon" href="./img/iconKutani.png" />
     <title>Kutani | Platform Pembantu Petani</title>
   </head>
   <body>
@@ -27,17 +27,17 @@
       <div class="container">
         <div class="navLeft">
           <div class="navLogo">
-            <a href="../Pages/index.php"><img src="../Images/logoKutani.svg" alt="kutani" /></a>
+            <a href="index.php"><img src="./img/logoKutani.svg" alt="kutani" /></a>
           </div>
         </div>
         <div class="navRight">
           <div class="navList">
             <ul>
-              <li><a href="../Pages/index.php">Home</a></li>
-              <li><a href="../Pages/product.php">Product</a></li>
-              <li><a href="../Pages/community.php">Community</a></li>
-              <li><a href="../Pages/article.php">Article</a></li>
-              <li><a href="../Pages/about.php">About</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="product.php">Product</a></li>
+              <li><a href="community.php">Community</a></li>
+              <li><a href="article.php">Article</a></li>
+              <li><a href="about.php">About</a></li>
             </ul>
           </div>
           <div class="navIcon">
@@ -47,10 +47,10 @@
           <div class="navLine"></div>
           <div class="navButton">
             <button class="signIn">
-              <a href="../Pages/Reg/in.php">Sign In</a>
+              <a href="Reg/in.php">Sign In</a>
             </button>
             <button class="signUp">
-              <a href="../Pages/Reg/up.php">Sign Up</a>
+              <a href="Reg/up.php">Sign Up</a>
             </button>
           </div>
         </div>
@@ -64,7 +64,7 @@
           <h2>TAMBAH PRODUK KAMU</h2>
           <div class="servLine"></div>
         </div>
-        <form action="../Config/inputProduct.php" method="POST" enctype="multipart/form-data">
+        <form action="./config/inputProduct.php" method="POST" enctype="multipart/form-data">
           <label for="addPhoto">
             <a class="addPhoto" rel="nofollow"><i class="fa-solid fa-paperclip"></i> Tambah Foto</a>
           </label>
@@ -100,7 +100,7 @@
     <!-- End Add Product -->
     <!-- Start Footer -->
     <div class="footMaker">
-      <strong>© 2022 Arif Saputra | <a href="../Pages/bantuan.php">Bantuan</a></strong>
+      <strong>© 2022 Arif Saputra | <a href="bantuan.php">Bantuan</a></strong>
     </div>
     <!-- End Footer -->
   </body>

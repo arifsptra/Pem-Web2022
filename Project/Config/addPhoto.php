@@ -1,6 +1,6 @@
 <?php
 function addPhoto($addPhoto){
-    $target_dir = "../Images/";
+    $target_dir = "../img/";
     $target_file = $target_dir . basename($addPhoto["name"]);
     $uploadOk = 1;
     $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));

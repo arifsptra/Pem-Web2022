@@ -19,10 +19,10 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
     <!-- My Style CSS -->
-    <link rel="stylesheet" href="../Style/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
 
     <!-- Title -->
-    <link rel="icon" href="../Images/iconKutani.png" />
+    <link rel="icon" href="./img/iconKutani.png" />
     <title>Kutani | Platform Pembantu Petani</title>
   </head>
   <body>
@@ -31,17 +31,17 @@
       <div class="container">
         <div class="navLeft">
           <div class="navLogo">
-            <a href="../Pages/index.php"><img src="../Images/logoKutani.svg" alt="kutani" /></a>
+            <a href="index.php"><img src="./img/logoKutani.svg" alt="kutani" /></a>
           </div>
         </div>
         <div class="navRight">
           <div class="navList">
             <ul>
-              <li><a href="../Pages/index.php">Home</a></li>
-              <li><a href="../Pages/product.php">Product</a></li>
-              <li><a href="../Pages/community.php">Community</a></li>
-              <li><a href="../Pages/article.php">Article</a></li>
-              <li><a href="../Pages/about.php">About</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="product.php">Product</a></li>
+              <li><a href="community.php">Community</a></li>
+              <li><a href="article.php">Article</a></li>
+              <li><a href="about.php">About</a></li>
             </ul>
           </div>
           <div class="navIcon">
@@ -51,10 +51,10 @@
           <div class="navLine"></div>
           <div class="navButton">
             <button class="signIn">
-              <a href="../Pages/Reg/in.php">Sign In</a>
+              <a href="Reg/in.php">Sign In</a>
             </button>
             <button class="signUp">
-              <a href="../Pages/Reg/up.php">Sign Up</a>
+              <a href="Reg/up.php">Sign Up</a>
             </button>
           </div>
         </div>
@@ -107,8 +107,8 @@
         </div>
         <div class="prodMain">
           <?php 
-            require_once("../Config/connect.php");
-              $sql = mysqli_query($conn, "SELECT * FROM product");
+            require_once("./config/connect.php");
+              $sql = mysqli_query($conn, "SELECT * FROM produk");
             ?>
             <?php
               for($i = 0; $i < 5; $i++){
@@ -116,7 +116,7 @@
             ?>
             <div class="prodCol">
               <a href="">
-                <img src="../Images/<?php echo $row['addPhoto'] ?>" alt="product" />
+                <img src="./img/<?php echo $row['addPhoto'] ?>" alt="product" />
                 <div class="prodDesc">
                   <p class="prodMerk"><?php echo $row['brandName'] ?></p>
                   <h4 class="prodHead"><?php echo $row['productName'] ?></h4>
@@ -129,7 +129,7 @@
             <?php } ?>
         </div>
         <div class="prodButton">
-          <button><a href="../Pages/product.php">See More</a></button>
+          <button><a href="product.php">See More</a></button>
         </div>
       </div>
     </section>
@@ -142,7 +142,7 @@
           <p>Start farming with agricultural experts together with other farmers with our community, and increase your agricultural yield.</p>
         </div>
         <div class="joinButton">
-          <button><a href="../Pages/">Join Now</a></button>
+          <button><a href="">Join Now</a></button>
         </div>
       </div>
     </section>
@@ -152,7 +152,7 @@
       <div class="container">
         <div class="artMain">
           <div class="artCol">
-            <div class="artImg" style="background: url(../Images/a01.png)">
+            <div class="artImg" style="background: url(./img/a01.png)">
               <p class="artHead">Apa Yang Perlu Kita Perhatikan Dalam Memilih Pupuk?</p>
               <time class="artDate">KUTANI | 30 April 2022</time>
             </div>
@@ -162,7 +162,7 @@
             </div>
           </div>
           <div class="artCol">
-            <div class="artImg" style="background: url(../Images/a03.png)">
+            <div class="artImg" style="background: url(./img/a03.png)">
               <p class="artHead">Apa Yang Perlu Kita Perhatikan Dalam Memilih Pupuk?</p>
               <time class="artDate">KUTANI | 30 April 2022</time>
             </div>
@@ -172,7 +172,7 @@
             </div>
           </div>
           <div class="artCol">
-            <div class="artImg" style="background: url(../Images/a02.png)">
+            <div class="artImg" style="background: url(./img/a02.png)">
               <p class="artHead">Apa Yang Perlu Kita Perhatikan Dalam Memilih Pupuk?</p>
               <time class="artDate">KUTANI | 30 April 2022</time>
             </div>
@@ -182,7 +182,7 @@
             </div>
           </div>
           <div class="artCol">
-            <div class="artImg" style="background: url(../Images/a03.png)">
+            <div class="artImg" style="background: url(./img/a03.png)">
               <p class="artHead">Apa Yang Perlu Kita Perhatikan Dalam Memilih Pupuk?</p>
               <time class="artDate">KUTANI | 30 April 2022</time>
             </div>
@@ -200,7 +200,7 @@
       <div class="container">
         <div class="footRow">
           <div class="footCol">
-            <img src="../Images/logoKutaniWhite.svg" alt="kutani" />
+            <img src="./img/logoKutaniWhite.svg" alt="kutani" />
             <div class="footInfo">
               <a href="#"><i class="fa-solid fa-phone"></i> +62123456789012</a>
               <a href="#"><i class="fa-solid fa-envelope"></i> info@kutani.id</a>
@@ -231,11 +231,11 @@
             <div class="line"></div>
             <div class="link">
               <ul>
-                <li><a href="../Pages/index.php">Home</a></li>
-                <li><a href="../Pages/product.php">Product</a></li>
-                <li><a href="../Pages/community.php">Community</a></li>
-                <li><a href="../Pages/article.php">Article</a></li>
-                <li><a href="../Pages/about.php">About Us</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="product.php">Product</a></li>
+                <li><a href="community.php">Community</a></li>
+                <li><a href="article.php">Article</a></li>
+                <li><a href="about.php">About Us</a></li>
               </ul>
             </div>
           </div>

@@ -1,6 +1,6 @@
 <?php
-  include "../Config/connect.php";
-  include "../Config/addPhoto.php";
+  include "connect.php";
+  include "addPhoto.php";
   $addPhoto = $_POST['addPhoto'];
   $productName = $_POST['productName'];
   $productDescription = $_POST['productDescription'];
@@ -13,13 +13,13 @@
        
   if(addPhoto($_FILES["addPhoto"])){
     $addPhoto = $_FILES['addPhoto']["name"];
-    $sql = "INSERT INTO product (addPhoto, productName, productDescription, category, brandName, descr, minim, price, stock) VALUES ('$addPhoto', '$productName', '$productDescription', '$category', '$brandName', '$descr', '$minim', '$price', '$stock')";
+    $sql = "INSERT INTO produk (addPhoto, productName, productDescription, category, brandName, descr, minim, price, stock) VALUES ('$addPhoto', '$productName', '$productDescription', '$category', '$brandName', '$descr', '$minim', '$price', '$stock')";
     if($conn -> query($sql) === TRUE){
       $conn -> close();
-      header('location: ../Pages/inputProduct.php?status=berhasilTambahProduk');
+      header('location: ../inputProduct.php?status=berhasilTambahProduk');
     }else {
       $conn -> close();
-      header('location: ../Pages/inputProduct.php?status=gagalTambahProduk');
+      header('location: ../inputProduct.php?status=gagalTambahProduk');
     }
   }else {
     echo "<p>Sorry, File gagal diupload.</p>";
