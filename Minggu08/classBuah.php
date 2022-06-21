@@ -4,6 +4,11 @@ class Buah {
     public $nama;
     public $warna;
 
+    // Contructor
+    function __construct($nama){
+        $this->nama = $nama;
+    }
+
     // Method
     function setNama($nama){
         $this->nama = $nama;
