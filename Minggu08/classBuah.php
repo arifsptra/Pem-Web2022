@@ -16,5 +16,10 @@ class Buah {
     function getNama(){
         return $this->nama;
     }
+
+    // Destructor
+    function __destruct(){
+        echo "Buah {$this->nama} telah dihancurkan";
+    }
 }
 ?>
