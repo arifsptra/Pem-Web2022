@@ -16,14 +16,18 @@
     $pear->intro();
     echo "<br />";
 
-    $pache = new BuahSoft("Pache", "PutihHitam");
-    $pache->message();
-    $pache->intro();
-    echo "<br />";
+    // $pache = new BuahSoft("Pache", "PutihHitam");
+    // $pache->message();
+    // $pache->intro();
+    // echo "<br />";
 
     // Error Karena hanya dapat diakses oleh class itu sendiri
     // $pear->printManfaat();
     // $pache->printManfaat();
+
+    $raspberry = new BuahSoft("Raspberry", "Merah", 30);
+    $raspberry->message();
+    $raspberry->intro();
 
     ?>
 </body>
