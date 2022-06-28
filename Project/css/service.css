@@ -59,3 +59,10 @@
   font-size: 1.6rem;
   color: #555;
 }
+
+@media (max-width: 768px) {
+  .servMain {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

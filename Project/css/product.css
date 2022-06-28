@@ -1,6 +1,5 @@
 #product {
   width: 100%;
-  padding-top: 7.5rem;
 }
 
 #product .container {
@@ -72,6 +71,47 @@
 .prodKet2 {
   font-size: 1rem;
   color: #777;
+}
+
+.prodCol .buttonAct {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.prodCol .buttonAct .bDel {
+  background: #b00f04;
+  transition: all 0.4s;
+  margin-left: 0.8rem;
+}
+
+.prodCol .buttonAct .bDel:hover {
+  box-shadow: 0 0 0 2.5px rgba(176, 15, 4, 0.671);
+}
+
+.prodCol .buttonAct .bEdi {
+  background: #3c7c40;
+  transition: all 0.4s;
+}
+
+.prodCol .buttonAct .bEdi:hover {
+  box-shadow: 0 0 0 2.5px rgba(60, 124, 64, 0.671);
+}
+
+.prodCol button {
+  margin-top: 1rem;
+  padding: 0.4rem 0.8rem;
+  background: none;
+  border-radius: 0.6rem;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.prodCol button a {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .prodButton {

@@ -1,3 +1,20 @@
+<?php
+    include "./config/connect.php";
+    $id = $_GET['id'];
+    $sql = "SELECT * FROM produk WHERE id='$id'";
+    $hasil = $conn->query($sql);
+    while($row=$hasil->fetch_assoc()){
+        $addPhoto = $row['addPhoto'];
+        $productName = $row['productName'];
+        $productDescription = $row['productDescription'];
+        $category = $row['category'];
+        $brandName = $row['brandName'];
+        $descr = $row['descr'];
+        $minim = $row['minim'];
+        $price = $row['price'];
+        $stock = $row['stock'];
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -21,7 +38,7 @@
     <link rel="icon" href="./img/iconKutani.png" />
     <title>Kutani | Platform Pembantu Petani</title>
   </head>
-  <body>
+    <body>
     <!-- Start Navbar -->
     <header id="navbar">
       <div class="container">
@@ -46,24 +63,26 @@
       </div>
     </header>
     <!-- End Navbar -->
-    <!-- Start Add Product -->
     <section id="addProduct">
       <div class="container">
         <div class="servHead">
-          <h2>TAMBAH PRODUK KAMU</h2>
+          <h2>EDIT PRODUK KAMU</h2>
           <div class="servLine"></div>
         </div>
-        <form action="./config/inputProduct.php" method="POST" enctype="multipart/form-data">
+        <form action="./updateProduct.php" method="POST" enctype="multipart/form-data">
           <label for="addPhoto">
-            <a class="addPhoto" rel="nofollow"><i class="fa-solid fa-paperclip"></i> Tambah Foto</a>
+            <a class="addPhoto" rel="nofollow"><i class="fa-solid fa-paperclip"></i> Ubah Foto</a>
           </label>
-          <input type="file" id="addPhoto" name="addPhoto" /><br />
+          <input type="file" id="addPhoto" name="addPhoto"/><br />
+          <input type="hidden" name="foto_lama" value="<?= $addPhoto; ?>"><br>
+          <img src="src='./img/<?php echo $addPhoto; ?>' style='width:100px;height:100px'" ><br>
+          <input type="checkbox" name="ubah_foto" value='true'>Checklist Jika Ingin Mengubah Foto<br>
           <label for="productName">Nama Produk</label><br />
-          <input type="text" id="productName" name="productName" required /><br />
+          <input type="text" id="productName" name="productName" value="<?= $productName; ?>" required /><br />
           <label for="productDescription">Deskripsi</label><br />
-          <textarea name="productDescription" id="productDescription" cols="30" rows="4" required></textarea><br />
+          <textarea name="productDescription" id="productDescription" cols="30" rows="4" value="<?= $productDescription; ?>" required></textarea><br />
           <label for="category">Kategori</label><br />
-          <select name="category" id="catergory" required>
+          <select name="category" id="catergory" value="<?= $category ?>" required>
             <option value="Pilih Kategori" selected disabled>Pilih Kategori</option>
             <option value="biji-bijian">Biji Bijian</option>
             <option value="buah">Buah</option>
@@ -73,20 +92,19 @@
             <option value="sayuran">Sayuran</option></select
           ><br />
           <label for="brandName">Merk</label><br />
-          <input type="text" id="brandName" name="brandName" required /><br />
+          <input type="text" id="brandName" name="brandName" value="<?= $brandName; ?>" required /><br />
           <label for="descr">Jumlah Produk /kg</label><br />
-          <input type="number" id="descr" name="descr" /><br />
+          <input type="number" id="descr" name="descr" value="<?= $descr; ?>" /><br />
           <label for="minim">Minimal Beli</label><br />
-          <input type="text" id="minim" name="minim" required /><br />
+          <input type="text" id="minim" name="minim" value="<?= $minim; ?>" required /><br />
           <label for="price">Harga /kg</label><br />
-          <input type="number" id="price" name="price" required /><br />
+          <input type="number" id="price" name="price" value="<?= $price; ?>" required /><br />
           <label for="stock">Stok</label><br />
-          <input type="number" name="stock" id="stock" required /><br />
-          <input type="submit" value="Tambah Produk" id="submit" class="submit" />
+          <input type="number" name="stock" id="stock" value="<?= $stock; ?>" required /><br />
+          <input type="submit" value="Edit Produk" id="submit" class="submit" />
         </form>
       </div>
     </section>
-    <!-- End Add Product -->
     <!-- Start Footer -->
     <div class="footMaker">
       <strong>© 2022 Arif Saputra | <a href="bantuan.php">Bantuan</a></strong>
@@ -95,5 +113,5 @@
 
     <!-- js -->
     <script src="./js/navbar.js"></script>
-  </body>
+    </body>
 </html>

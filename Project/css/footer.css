@@ -19,7 +19,6 @@
 
 .footCol img {
   width: 20.13rem;
-  height: 5rem;
   margin-bottom: 1rem;
 }
 
@@ -125,4 +124,25 @@
 
 .copyright .container {
   justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .footRow {
+    flex-wrap: wrap;
+  }
+
+  .footCol {
+    margin-bottom: 5rem;
+  }
+
+  .footCol .link ul {
+    list-style: none;
+    margin-bottom: 0;
+  }
+  .footCol strong {
+    font-size: 2.5rem;
+  }
+  .footCol img {
+    width: 15rem;
+  }
 }

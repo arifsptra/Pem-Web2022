@@ -1,26 +1,35 @@
 #hero {
-    z-index: 1;
-    width: 100%;
-    height: 400px;
-    background: url(../Images/hero.png);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  z-index: 1;
+  width: 100vw;
+  height: 400px;
+  background: url(../img/hero.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .heroText {
-    color: #fff;
-    cursor: default;
+  color: #fff;
+  cursor: default;
 }
 
 .heroText h1 {
-    margin-top: 6rem;
-    font-size: 3rem;
+  margin-top: 6rem;
+  font-size: 3rem;
 }
 
 .heroText p {
-    margin-top: 1rem;
-    font-size: 2rem;
-    width: 100%;
-    max-width: 66rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  width: 100%;
+  max-width: 66rem;
+}
+
+@media (max-width: 768px){
+  .heroText h1 {
+    font-size: 2.5rem;
+  }
+  .heroText p {
+    font-size: 1.5rem;
+  }
 }

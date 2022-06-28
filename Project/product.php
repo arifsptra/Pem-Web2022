@@ -31,55 +31,23 @@
           </div>
         </div>
         <div class="navRight">
-          <div class="navList">
-            <ul>
-              <li><a href="index.php">Home</a></li>
-              <li><a href="product.php">Product</a></li>
-              <li><a href="community.php">Community</a></li>
-              <li><a href="article.php">Article</a></li>
-              <li><a href="about.php">About</a></li>
-            </ul>
+          <div class="burger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
           </div>
-          <div class="navIcon">
-            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-          </div>
-          <div class="navLine"></div>
-          <div class="navButton">
-            <button class="signIn">
-              <a href="Reg/in.php">Sign In</a>
-            </button>
-            <button class="signUp">
-              <a href="Reg/up.php">Sign Up</a>
-            </button>
-          </div>
+          <div class="bg-sidebar"></div>
+          <ul class="sidebar">
+            <li><a href="index.php">Beranda</a></li>
+            <li><a href="product.php">Produk</a></li>
+            <li><a href="inputProduct.php" class="active">Input Produk</a></li>
+          </ul>
         </div>
       </div>
     </header>
     <!-- End Navbar -->
-    <section id="category">
-        <div class="container">
-            <div class="catRow">
-                <div class="catCol">
-                    <a href="#">Buah</a>
-                </div>
-                <div class="catCol">
-                    <a href="#">Ikan</a>
-                </div>
-                <div class="catCol">
-                    <a href="#">Sayuran</a>
-                </div>
-                <div class="catCol">
-                    <a href="#">Biji BIjian</a>
-                </div>
-                <div class="catCol">
-                    <a href="#">Daging</a>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- Start Product -->
-    <section id="product" style="padding-top: 1rem;">
+    <section id="product" style="padding-top: 8rem;">
       <div class="container">
         <div class="prodMain">
           <?php 
@@ -96,6 +64,10 @@
                 <p class="prodKet"><?php echo $row['descr'] ?> pcs/kg</p>
                 <p class="prodPrice">Rp. <?php echo $row['price'] ?> /kg</p>
                 <p class="prodKet2">min. <?php echo $row['minim'] ?>Kg</p>
+                <div class="buttonAct">
+                  <button class="bDel"><a href='hapusBarang.php?id=<?php echo $row["id"] ?>'>Hapus</a></button>
+                  <button class="bEdi"><a href='editBarang.php?id=<?php echo $row["id"] ?>'>Edit</a></button>
+                </div>
               </div>
             </a>
           </div>
@@ -117,7 +89,7 @@
             </div>
           </div>
           <div class="footCol">
-            <strong>Follow Us</strong>
+            <strong>Ikuti Kami</strong>
             <div class="line"></div>
             <p>Join our social media to get the latest info about agriculture.</p>
             <div class="footMedia">
@@ -136,15 +108,13 @@
             </div>
           </div>
           <div class="footCol">
-            <strong>Sitemap</strong>
+            <strong>Peta Situs</strong>
             <div class="line"></div>
             <div class="link">
               <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="product.php">Product</a></li>
-                <li><a href="community.php">Community</a></li>
-                <li><a href="article.php">Article</a></li>
-                <li><a href="about.php">About Us</a></li>
+                <li><a href="index.php">Beranda</a></li>
+                <li><a href="product.php">Produk</a></li>
+                <li><a href="inputProduct.php">Input Produk</a></li>
               </ul>
             </div>
           </div>
@@ -159,5 +129,8 @@
         <strong class="support">Powered by kutani</strong>
       </div>
     </div>
+
+    <!-- js -->
+    <script src="./js/navbar.js"></script>
   </body>
 </html>
