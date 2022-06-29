@@ -47,7 +47,7 @@
     </header>
     <!-- End Navbar -->
     <!-- Start Hero -->
-    <section id="hero">
+    <section id="hero" style="background-image: url('./img/hero.png')">
       <div class="container">
         <div class="heroText">
           <h1>Pemasok komoditas pertanian di seluruh dunia</h1>
@@ -84,14 +84,14 @@
     </section>
     <!-- End Service -->
     <!-- Start Product -->
-    <section id="product">
+    <section id="product" style="margin-top: 7.5rem">
       <div class="container">
         <div class="prodHead">
           <h2>PRODUK KAMI</h2>
           <div class="prodLine"></div>
         </div>
         <div class="prodMain">
-          <?php 
+          <!-- <?php 
             require_once("./config/connect.php");
               $sql = mysqli_query($conn, "SELECT * FROM produk");
             ?>
@@ -101,13 +101,13 @@
             ?>
           <div class="prodCol">
             <a href="">
-              <img src="./img/p01.png" alt="product" />
+            <img src="./img/<?php echo $row['addPhoto'] ?>" alt="product" />
               <div class="prodDesc">
-                <p class="prodMerk">KUTANI</p>
-                <h4 class="prodHead">Wortel</h4>
-                <p class="prodKet">1 pcs/kg</p>
-                <p class="prodPrice">Rp. 10000 /kg</p>
-                <p class="prodKet2">min. 10 kg</p>
+                <p class="prodMerk"><?php echo $row['brandName'] ?></p>
+                <h4 class="prodHead"><?php echo $row['productName'] ?></h4>
+                <p class="prodKet"><?php echo $row['descr'] ?> pcs/kg</p>
+                <p class="prodPrice">Rp. <?php echo $row['price'] ?> /kg</p>
+                <p class="prodKet2">min. <?php echo $row['minim'] ?>Kg</p>
                 <div class="buttonAct">
                   <button class="bDel"><a href='hapusBarang.php?id=<?php echo $row["id"] ?>'>Hapus</a></button>
                   <button class="bEdi"><a href='editBarang.php?id=<?php echo $row["id"] ?>'>Edit</a></button>
@@ -115,7 +115,7 @@
               </div>
             </a>
           </div>
-          <?php } ?>
+          <?php } ?> -->
         </div>
         <div class="prodButton">
           <button><a href="product.php">Lihat Lainnya</a></button>
@@ -127,11 +127,11 @@
     <section id="join">
       <div class="container">
         <div class="joinText">
-          <h2>Join Now!</h2>
-          <p>Start farming with agricultural experts together with other farmers with our community, and increase your agricultural yield.</p>
+          <h2>Gabung Sekarang!</h2>
+          <p>Mulailah bertani dengan ahli pertanian bersama dengan petani lain dengan komunitas kami, dan tingkatkan hasil pertanian Anda.</p>
         </div>
         <div class="joinButton">
-          <button><a href="">Join Now</a></button>
+          <button><a href="./inputProduct.php">Jualan Sekarang</a></button>
         </div>
       </div>
     </section>

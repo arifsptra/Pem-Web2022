@@ -39,8 +39,8 @@
           <div class="bg-sidebar"></div>
           <ul class="sidebar">
             <li><a href="index.php">Beranda</a></li>
-            <li><a href="product.php" class="active">Produk</a></li>
-            <li><a href="inputProduct.php">Input Produk</a></li>
+            <li><a href="product.php">Produk</a></li>
+            <li><a href="inputProduct.php" class="active">Input Produk</a></li>
           </ul>
         </div>
       </div>

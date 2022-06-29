@@ -69,7 +69,7 @@
           <h2>EDIT PRODUK KAMU</h2>
           <div class="servLine"></div>
         </div>
-        <form action="./updateProduct.php" method="POST" enctype="multipart/form-data">
+        <form action="./config/updateProduct.php" method="POST" enctype="multipart/form-data">
           <label for="addPhoto">
             <a class="addPhoto" rel="nofollow"><i class="fa-solid fa-paperclip"></i> Ubah Foto</a>
           </label>
