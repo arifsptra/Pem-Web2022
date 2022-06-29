@@ -31,3 +31,11 @@ option {
 .submit:hover {
   box-shadow: 0 0 0 4px rgba(60, 124, 64, 0.671);
 }
+
+.ifoto {
+  margin-bottom: 0;
+}
+
+.cek {
+  width: 2rem;
+}

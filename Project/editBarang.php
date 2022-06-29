@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
     include "./config/connect.php";
     $id = $_GET['id'];
     $sql = "SELECT * FROM produk WHERE id='$id'";
@@ -14,7 +14,7 @@
         $price = $row['price'];
         $stock = $row['stock'];
     }
-?>
+?> -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -38,7 +38,7 @@
     <link rel="icon" href="./img/iLogo.svg" />
     <title>Kutani | Platform Pembantu Petani</title>
   </head>
-    <body>
+  <body>
     <!-- Start Navbar -->
     <header id="navbar">
       <div class="container">
@@ -73,10 +73,8 @@
           <label for="addPhoto">
             <a class="addPhoto" rel="nofollow"><i class="fa-solid fa-paperclip"></i> Ubah Foto</a>
           </label>
-          <input type="file" id="addPhoto" name="addPhoto"/><br />
-          <input type="hidden" name="foto_lama" value="<?= $addPhoto; ?>"><br>
-          <img src="src='./img/<?php echo $addPhoto; ?>' style='width:100px;height:100px'" ><br>
-          <input type="checkbox" name="ubah_foto" value='true'>Checklist Jika Ingin Mengubah Foto<br>
+          <input type="file" id="addPhoto" name="addPhoto" /><br />
+          <input class="cek" type="checkbox" name="ubah_foto" value="true" />Checklist Jika Ingin Mengubah Foto<br />
           <label for="productName">Nama Produk</label><br />
           <input type="text" id="productName" name="productName" value="<?= $productName; ?>" required /><br />
           <label for="productDescription">Deskripsi</label><br />
@@ -113,5 +111,5 @@
 
     <!-- js -->
     <script src="./js/navbar.js"></script>
-    </body>
+  </body>
 </html>
