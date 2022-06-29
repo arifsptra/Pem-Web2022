@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./css/main.css" />
 
     <!-- Title -->
-    <link rel="icon" href="./img/iconKutani.png" />
+    <link rel="icon" href="./img/iLogo.svg" />
     <title>Kutani | Platform Pembantu Petani</title>
   </head>
   <body>
@@ -47,7 +47,7 @@
     </header>
     <!-- End Navbar -->
     <!-- Start Hero -->
-    <section id="hero" style="background-image: url('./img/hero.png')">
+    <section id="hero" style="background-image: url('./img/iHero.svg')">
       <div class="container">
         <div class="heroText">
           <h1>Pemasok komoditas pertanian di seluruh dunia</h1>
@@ -91,7 +91,7 @@
           <div class="prodLine"></div>
         </div>
         <div class="prodMain">
-          <!-- <?php 
+          <?php 
             require_once("./config/connect.php");
               $sql = mysqli_query($conn, "SELECT * FROM produk");
             ?>
@@ -115,7 +115,7 @@
               </div>
             </a>
           </div>
-          <?php } ?> -->
+          <?php } ?>
         </div>
         <div class="prodButton">
           <button><a href="product.php">Lihat Lainnya</a></button>

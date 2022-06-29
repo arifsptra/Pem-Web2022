@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./css/main.css" />
 
     <!-- Title -->
-    <link rel="icon" href="./img/iconKutani.png" />
+    <link rel="icon" href="./img/iLogo.svg" />
     <title>Kutani | Platform Pembantu Petani</title>
   </head>
   <body>
