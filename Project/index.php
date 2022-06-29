@@ -95,19 +95,29 @@
             require_once("./config/connect.php");
               $sql = mysqli_query($conn, "SELECT * FROM produk");
             ?>
-            <?php
-              for($i = 0; $i < 5; $i++){
+          <?php
+              for($i = 0; $i < 10; $i++){
                 $row = mysqli_fetch_array($sql);
             ?>
           <div class="prodCol">
             <a href="">
-            <img src="./img/<?php echo $row['addPhoto'] ?>" alt="product" />
+              <img src="./img/<?php echo $row['addPhoto'] ?>" alt="product" />
               <div class="prodDesc">
                 <p class="prodMerk"><?php echo $row['brandName'] ?></p>
                 <h4 class="prodHead"><?php echo $row['productName'] ?></h4>
-                <p class="prodKet"><?php echo $row['descr'] ?> pcs/kg</p>
-                <p class="prodPrice">Rp. <?php echo $row['price'] ?> /kg</p>
-                <p class="prodKet2">min. <?php echo $row['minim'] ?>Kg</p>
+                <p class="prodKet">
+                  <?php echo $row['descr'] ?>
+                  pcs/kg
+                </p>
+                <p class="prodPrice">
+                  Rp.
+                  <?php echo $row['price'] ?>
+                  /kg
+                </p>
+                <p class="prodKet2">
+                  min.
+                  <?php echo $row['minim'] ?>Kg
+                </p>
                 <div class="buttonAct">
                   <button class="bDel"><a href='hapusBarang.php?id=<?php echo $row["id"] ?>'>Hapus</a></button>
                   <button class="bEdi"><a href='editBarang.php?id=<?php echo $row["id"] ?>'>Edit</a></button>

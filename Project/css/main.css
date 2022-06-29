@@ -48,6 +48,12 @@ body {
   margin: 0 auto;
 }
 
+@media (min-width: 320px) {
+  .container {
+    max-width: 280px;
+  }
+}
+
 @media (min-width: 390px) {
   .container {
     max-width: 320px;

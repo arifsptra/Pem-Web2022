@@ -163,3 +163,10 @@
 .catRow .catCol a:hover {
   color: #3c7c40;
 }
+
+@media (max-width: 400px) {
+  .prodMain {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
