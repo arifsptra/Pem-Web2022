@@ -70,6 +70,7 @@
           <div class="servLine"></div>
         </div>
         <form action="./config/updateProduct.php" method="POST" enctype="multipart/form-data">
+          <input type="hidden" value="<?php echo $_GET['id'] ?>" name="id">
           <label for="addPhoto">
             <a class="addPhoto" rel="nofollow"><i class="fa-solid fa-paperclip"></i> Ubah Foto</a>
           </label>
