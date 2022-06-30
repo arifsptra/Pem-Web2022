@@ -1,0 +1,42 @@
+#bantuan {
+  padding: 25%;
+  width: 100%;
+  height: 100%;
+}
+
+#bantuan .container {
+  flex-direction: column;
+  align-items: center;
+}
+
+#bantuan h1 {
+  font size: 2rem;
+  margin-bottom: 4rem;
+}
+
+#bantuan strong {
+  color: #3c7c40;
+}
+
+#bantuan .hub {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#bantuan p {
+  font-size: 1rem;
+}
+
+#bantuan a {
+  text-decoration: none;
+  color: #3c7c40;
+  transition: all 0.4s;
+}
+
+#bantuan a:hover {
+  font-weight: bold;
+}
+
+#bantuan .name {
+  font-weight: bold;
+}
