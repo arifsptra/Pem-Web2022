@@ -73,7 +73,7 @@
           <label for="addPhoto">
             <a class="addPhoto" rel="nofollow"><i class="fa-solid fa-paperclip"></i> Ubah Foto</a>
           </label>
-          <input type="file" id="addPhoto" name="addPhoto" /><br />
+          <input class="ifoto" type="file" id="addPhoto" name="addPhoto" /><br />
           <input class="cek" type="checkbox" name="ubah_foto" value="true" />Checklist Jika Ingin Mengubah Foto<br />
           <label for="productName">Nama Produk</label><br />
           <input type="text" id="productName" name="productName" value="<?= $productName; ?>" required /><br />

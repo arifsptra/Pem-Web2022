@@ -119,7 +119,7 @@
                   <?php echo $row['minim'] ?>Kg
                 </p>
                 <div class="buttonAct">
-                  <button class="bDel"><a href='hapusBarang.php?id=<?php echo $row["id"] ?>'>Hapus</a></button>
+                  <button class="bDel"><a href='./config/hapusBarang.php?id=<?php echo $row['id'] ?>'>Hapus</a></button>
                   <button class="bEdi"><a href='editBarang.php?id=<?php echo $row["id"] ?>'>Edit</a></button>
                 </div>
               </div>

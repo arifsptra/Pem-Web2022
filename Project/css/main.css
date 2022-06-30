@@ -25,6 +25,9 @@
 /* Style for Form */
 @import url("form.css");
 
+/* Style for PopUp */
+@import url("popup.css");
+
 *,
 *::after,
 *::before {
