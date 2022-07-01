@@ -39,3 +39,21 @@ option {
 .cek {
   width: 2rem;
 }
+
+@media (max-width: 500px) {
+  input,
+  textarea,
+  select,
+  option {
+    width: 35rem;
+  }
+}
+
+@media (max-width: 360px) {
+  input,
+  textarea,
+  select,
+  option {
+    width: 30rem;
+  }
+}
