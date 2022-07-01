@@ -349,3 +349,9 @@ _Thursday, June 16, 2022_
 - Doing laravel CRUD practicum
   - Creating databases and tables
   - Database settings with laravel
+
+## Final Exam
+
+_Tuesday, July 5, 2022_
+
+- This is a project i made [Kutani](http://kutani.rf.gd)
