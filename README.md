@@ -299,7 +299,7 @@ _Thursday, June 2, 2022_
   - Routes can direct requests to the Controller or directly to the View
 - Laravel Structure <br>
   | Path | Function |
-  |------------------------------|------------------ ---------------------------------------|
+  |------------------------------|---------------------------------------------------------|
   | /app/Http/Controllers | Managing Controller files |
   | /app/Http/Middleware | Manage Middleware files |
   | /app/ModelName.php | Managing Model files |
