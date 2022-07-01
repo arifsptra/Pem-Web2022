@@ -244,3 +244,108 @@ _Thursday, May 19, 2022_
   | Python | Django, CherryPy, dll |
   | Ruby | Ruby on Rails, Sinatra, dll |
   | Javascript | AngularJS, React, Backbone.js, dll |
+
+## Material of Week 10
+
+_Thursday, May 19, 2022_
+
+- Framework is a framework created to build / create an application using PHP as the programming language.
+- Why use a framework to build a website? <br> because there is no need to bother defining all general functions, such as connection to databases, web page templates, etc.
+- CodeIgniter
+  - CodeIgniter is an open source MVC model (PHP framework) for building dynamic websites using PHP.
+  - CodeIgniter makes it easy, faster for web developers to build web applications, compared to building them from scratch.
+- CodeIgniter Advantages and Disadvantages
+  - Advantages :
+    - Doesn't Take Up Much Storage Space
+    - Equipped with Good Documentation Features
+    - Have Optimal Performance
+    - Have Many Online Communities in Indonesia
+  - Deficiency :
+    - Do not have an adequate library (library)
+    - No Special Editor Features
+- CodeIgniter Version
+  - CodeIgniter has versions ranging from 1.x.x, 2.x.x, 3.x.x and 4.x.x versions.
+  - For version 4.x.x until now it is still in the development stage.
+  - CodeIgniter Documentation Website https://www.codeigniter.com/
+- CodeIgniter file management
+  - If you pay attention, then in the fr_ci folder there is an application folder, in which there is a folder: - controllers - models - views
+  - The three folders above will often be used to make the web dynamic easier.
+  - Note that in each folder there is an index file (as a router)
+
+## Material of Week 11
+
+_Thursday, May 26, 2022_
+
+- Laravel
+  - Apart from CodeIgniter, Laravel is an MVC-based PHP framework.
+  - Laravel is one of the largest and most widely used PHP frameworks in the world.
+  - Laravel has tons of third-party modules that can be downloaded for free and easily.
+- Building applications with Laravel (composer)
+  - To be able to use Laravel, Laravel must be installed before installing Composer first.
+  - Composer is used to link application projects with libraries from packagist.org.
+  - Packagist is a site that stores many PHP libraries that can be used through Composer.
+- Composer Benefits
+  - Make programming with PHP more structured with the MVC concept.
+  - Composer has an autoload feature so there is no need to include all the required PHP classes.
+  - There is also no need to enter packages manually because all packages are automatically available in Composer.
+- Laravel Documentation Website https://laravel.com/
+
+## Material of Week 12
+
+_Thursday, June 2, 2022_
+
+- Laravel MVC
+  - Laravel has Routes to manage requests from users more flexibly.
+  - Routes can direct requests to the Controller or directly to the View
+- Laravel Structure <br>
+  | Path | Function |
+  |------------------------------|------------------ ---------------------------------------|
+  | /app/Http/Controllers | Managing Controller files |
+  | /app/Http/Middleware | Manage Middleware files |
+  | /app/ModelName.php | Managing Model files |
+  | /config | Changing Laravel configuration |
+  | /database/migrations | Putting assets like css and js files |
+  | /resources/views | Manage View files |
+  | /routes | Configure the url routing in the application |
+  | /storage | Store cache in the form of a file |
+  | /vendors | Save the generated library from Composer |
+- File .env
+  - A file that stores the entire setup environment, such as:
+    1. Database configuration
+    2. Cache Driver
+    3. Mail Configuration
+    4. Queue Configuration
+    5. Redis Configuration
+    6. AWS Configuration, Etc
+  - Env files cannot be versioned
+- Migration
+  - Migration is a version control database provided by Laravel
+  - Migration is useful if the project is done together/team
+  - Consists of 2 functions: up() and down()
+  - The up() function is called to add/update the table with the command php artisan:migrate
+  - The down() function is called to rollback with the command php artisan:rollback
+- Make Migration
+  - Before making a migration, make sure the database connection is correct. Adjust the database configuration in the .env . file
+  - Run the command at the command prompt (cmd) to create a migration with the command <br>
+    `php artisan make:migration create_name_table` <br> example: <br>
+    `php artisan make:migration create_categories_table`
+  - If successful, a new migration file will be formed in the database/migration folder
+  - To execute the migration, run the command `php artisan:migrate`
+
+## Material of Week 13
+
+_Thursday, June 9, 2022_
+
+- Doing laravel practicum
+  - Create routes and views
+  - Creating controllers
+  - Creating a route controller
+  - Passing data from controller to view
+
+## Material of Week 14
+
+_Thursday, June 16, 2022_
+
+- Doing laravel CRUD practicum
+  - Creating databases and tables
+  - Database settings with laravel
